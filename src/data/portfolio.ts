@@ -86,7 +86,7 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Leadership in Technical Teams",
     description:
-      "Founded and helped lead student engineering organizations, coordinating design planning, mentorship, and technical execution across team members.",
+      "Founded and helped lead student clubs, coordinating design planning, mentorship, and technical execution across team members.",
   },
   {
     title: "Robotics Systems Integration",
@@ -96,7 +96,7 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Competitive STEM Experience",
     description:
-      "Participated in structured STEM competitions (robotics and science olympiad), focusing on iterative design, testing, and performance optimization.",
+      "Participated in structured STEM competitions (robotics, hackathons, and science olympiad), focusing on iterative design, testing, and performance optimization.",
   },
   {
     title: "Communication & Advocacy (Model UN)",
@@ -106,7 +106,7 @@ export const experienceHighlights: Highlight[] = [
 ];
 
 export const contactLinks = [
-  { label: "Email", href: "16mukeshr@gmail.com" },
+  { label: "Email", href: "mailto:16mukeshr@gmail.com" },
   { label: "GitHub", href: "https://github.com/Mukiewukie" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/mukesh-ramanathan-6b0480280/" },
 ];
