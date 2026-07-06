@@ -2,7 +2,9 @@ export interface Project {
   title: string;
   description: string;
   stack: string[];
-  link: string;
+  link?: string;
+  image?: string;
+  video?: string;
 }
 
 export interface Highlight {
@@ -16,21 +18,28 @@ export const projects: Project[] = [
     description:
       "Designed and integrated electrical systems for a competitive robotics platform, focusing on wiring reliability, subsystem coordination, and rapid debugging during build seasons.",
     stack: ["FRC", "Electrical Design", "Control Systems", "Debugging"],
-    link: "https://github.com/Mukiewukie",
+    link: "https://github.com/FRCElectrical/FRCElectrical.org",
   },
   {
     title: "Science Olympiad Build Captain Work",
     description:
       "Led mechanical and systems design efforts for engineering-based Science Olympiad events, managing fabrication, testing, and iteration under time constraints.",
     stack: ["CAD", "Prototyping", "Mechanical Design", "Engineering Design Process"],
-    link: "https://github.com/Mukiewukie",
   },
   {
-    title: "Student Engineering & Systems Development",
+    title: "Software Engineering Internship",
     description:
-      "Developed early-stage engineering projects combining hardware and software concepts, including sensor-based systems and control logic experimentation.",
-    stack: ["Embedded Systems", "Python", "Microcontrollers", "Systems Thinking"],
-    link: "https://github.com/Mukiewukie",
+      "As a Software Engineering Intern at Qualizeal, an AI-powered company that unifies and streamlines software testing through integrated execution, planning, governance, and reporting, I developed and created a full-functioning website that incorporates frontend and backend as well as deep learning algorithms, SMOTE,  and Convolutional Neural Networks to successfully predict the emotions of an individual based on their Electroencephalogram data.",
+    stack: ["Embedded Systems", "Python", "CNN", "Deep Learning"],
+    link: "https://github.com/Mukiewukie/EEG-Processing-Site-Internship",
+    video: "/videos/discord-bot.mov",
+  },
+  {
+    title: "Discord Bot Development",
+    description:
+      "Designed and implemented a Discord bot with custom commands and integrations, enhancing community engagement and automating routine tasks with Electrical Engineering knowledge.",
+    stack: ["Python", "Discord API", "Asyncio"],
+    image: "/images/discord-bot-screenshot.png",
   },
 ];
 
@@ -58,7 +67,7 @@ export const experienceHighlights: Highlight[] = [
 ];
 
 export const contactLinks = [
-  { label: "Email", href: "mailto:mukesh.ramanathan@example.com" },
+  { label: "Email", href: "16mukeshr@gmail.com" },
   { label: "GitHub", href: "https://github.com/Mukiewukie" },
-  { label: "LinkedIn", href: "https://www.linkedin.com" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/mukesh-ramanathan-6b0480280/" },
 ];

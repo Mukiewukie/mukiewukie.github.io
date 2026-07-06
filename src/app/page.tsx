@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { NavBar } from "@/components/NavBar";
+import { ProjectGallery } from "@/components/ProjectGallery";
 import { Section } from "@/components/Section";
 import { contactLinks, experienceHighlights, projects } from "@/data/portfolio";
 
@@ -40,8 +42,17 @@ export default function Home() {
           </div>
 
           <div className="rounded-2xl border border-slate-200 bg-slate-950 p-6 text-slate-100 shadow-lg">
-            <p className="text-sm uppercase tracking-[0.3em] text-slate-400">About Me</p>
-            <p className="mt-4 text-sm leading-7 text-slate-300">
+            <div className="overflow-hidden rounded-2xl border border-slate-800">
+              <Image
+                src="/images/profile.jpg"
+                alt="Profile photo"
+                width={600}
+                height={420}
+                className="h-48 w-full object-cover"
+              />
+            </div>
+            <p className="mt-4 text-sm uppercase tracking-[0.3em] text-slate-400">About Me</p>
+            <p className="mt-2 text-sm leading-7 text-slate-300">
               I enjoy translating technical curiosity into real-world systems,
               from control logic and sensors to polished interfaces that make complex
               engineering work approachable.
@@ -69,30 +80,7 @@ export default function Home() {
         </Section>
 
         <Section id="projects" eyebrow="Projects" title="Selected work">
-          <div className="grid gap-6 md:grid-cols-3">
-            {projects.map((project) => (
-              <article
-                key={project.title}
-                className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
-              >
-                <h3 className="text-xl font-semibold text-slate-900">{project.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-slate-600">{project.description}</p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {project.stack.map((item) => (
-                    <span key={item} className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
-                      {item}
-                    </span>
-                  ))}
-                </div>
-                <Link
-                  href={project.link}
-                  className="mt-6 inline-flex text-sm font-semibold text-slate-900 transition group-hover:translate-x-1"
-                >
-                  View project →
-                </Link>
-              </article>
-            ))}
-          </div>
+          <ProjectGallery projects={projects} />
         </Section>
 
         <Section id="experience" eyebrow="Robotics / Engineering Experience" title="Leadership and technical depth">
