@@ -6,7 +6,6 @@ const nextConfig = {
     unoptimized: true,
   },
 
-  assetPrefix: "./",
 };
 
 module.exports = nextConfig;
