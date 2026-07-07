@@ -30,6 +30,13 @@ jobs:
       - name: Build and export static site
         run: npm run export
 
+      - name: Check export output
+        run: |
+          ls -la
+          ls -la out
+          ls -la out/_next/static
+          ls -la out/images || true
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
