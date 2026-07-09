@@ -24,7 +24,7 @@ export const projects: Project[] = [
     description:
       "Led mechanical and systems design efforts for engineering-based Science Olympiad events, managing fabrication, testing, and iteration under time constraints.",
     stack: ["CAD", "Prototyping", "Mechanical Design", "Engineering Design Process"],
-    image: "/images/Helicopter 2025 Image.jpg",
+    image: "/images/Helicopter-2025-Image.jpg",
   },
   {
     title: "Software Engineering Internship",

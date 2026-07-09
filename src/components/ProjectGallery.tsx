@@ -89,10 +89,12 @@ export function ProjectGallery({ projects }: ProjectGalleryProps) {
           <div className="relative max-h-full w-full max-w-5xl overflow-hidden rounded-3xl bg-slate-950 shadow-2xl">
             <button
               type="button"
-              onClick={() => setActiveImage(null)}
+              onClick={() => {
+                setActiveImage(null);
+                setActiveTitle(null);
+                }}
               className="absolute right-4 top-4 z-10 inline-flex h-10 w-10 items-center justify-center rounded-full bg-slate-100/90 text-slate-900 transition hover:bg-white"
             >
-              ×
             </button>
             <div className="p-4 text-center text-sm font-medium text-slate-100">
               {activeTitle}
