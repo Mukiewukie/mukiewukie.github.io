@@ -78,7 +78,7 @@ export default function Home() {
             {/* Image slots below the about text */}
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-700">
-                <Image
+                <img
                   src="/images/DSC_3879.jpg"
                   alt=""
                   width={800}
@@ -88,7 +88,7 @@ export default function Home() {
               </div>
 
               <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-700">
-                <Image
+                <img
                   src="/images/1774531076220.jpg"
                   alt=""
                   width={800}
