@@ -94,7 +94,7 @@ export default function Home() {
           </div>
         </Section>
 
-        <Section id="contact" eyebrow="Contact" title="Let’s build something thoughtful">
+        <Section id="contact" eyebrow="Contact" title="Let’s build something impactful">
           <div className="rounded-2xl border border-slate-200 bg-slate-900 p-8 text-slate-100 shadow-sm">
             <p className="max-w-2xl text-sm leading-7 text-slate-300">
               I’m interested in robotics, embedded systems, and collaborative engineering work.
