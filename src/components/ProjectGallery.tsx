@@ -21,7 +21,7 @@ export function ProjectGallery({ projects }: ProjectGalleryProps) {
             key={project.title}
             className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-slate-700 dark:bg-slate-900"
           >
-            {project.title !== "Discord Bot Development" && project.image ? (
+            {project.title !== "Discord Bot Development" && project.title !== "Science Olympiad Build Captain Work" && project.image ? (
               <button
                 type="button"
                 onClick={() => {
@@ -51,7 +51,10 @@ export function ProjectGallery({ projects }: ProjectGalleryProps) {
                 </span>
               ))}
             </div>
-            {project.title === "Discord Bot Development" && project.image ? (
+            {(
+              project.title === "Discord Bot Development" ||
+              project.title === "Science Olympiad Build Captain Work"
+            ) && project.image ? (
               <button
                 type="button"
                 onClick={() => {
