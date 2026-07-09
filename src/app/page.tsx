@@ -83,7 +83,7 @@ export default function Home() {
                   alt=""
                   width={800}
                   height={533}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-64 object-cover"
                 />
               </div>
 
@@ -93,7 +93,7 @@ export default function Home() {
                   alt=""
                   width={800}
                   height={533}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-64 object-cover object-top"
                 />
               </div>
             </div>
