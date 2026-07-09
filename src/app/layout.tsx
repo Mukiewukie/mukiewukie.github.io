@@ -4,10 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Mukesh Ramanathan | Portfolio",
   description: "Portfolio website for an electrical engineering and robotics student.",
-  icons: {
-    icon: "/favicon.png",
-    apple: "/favicon.png",
-  },
+  icons: [
+    { rel: "icon", url: "/favicon.png", type: "image/png" },
+    { rel: "shortcut icon", url: "/favicon.png", type: "image/png" },
+    { rel: "apple-touch-icon", url: "/favicon.png" },
+  ],
 };
 
 export default function RootLayout({
