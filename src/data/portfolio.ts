@@ -37,7 +37,7 @@ export const projects: Project[] = [
     description:
       "Designed and implemented a Discord bot with custom commands and integrations, enhancing community engagement and automating routine tasks with Electrical Engineering knowledge.",
     stack: ["Python", "Discord API", "Asyncio"],
-    image: "/images/discord-bot-screenshot.png",
+    image: "public/images/discord-bot-screenshot.png",
   },
   {
     title: "AI Workforce Mobility Navigator",
