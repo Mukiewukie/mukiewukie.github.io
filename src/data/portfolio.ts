@@ -13,9 +13,9 @@ export interface Highlight {
 
 export const projects: Project[] = [
   {
-    title: "FRC Robotics Electrical & Control Systems",
+    title: "frcelectrical.org",
     description:
-      "Designed and integrated electrical systems for a competitive robotics platform, focusing on wiring reliability, subsystem coordination, and rapid debugging during build seasons.",
+      "Designed and developed an electrical website that acts as a competitive robotics platform, focusing on wiring reliability, subsystem coordination, and rapid debugging during build seasons.",
     stack: ["FRC", "Electrical Design", "Control Systems", "Debugging"],
     link: "https://github.com/FRCElectrical/FRCElectrical.org",
   },
@@ -24,7 +24,6 @@ export const projects: Project[] = [
     description:
       "Led mechanical and systems design efforts for engineering-based Science Olympiad events, managing fabrication, testing, and iteration under time constraints.",
     stack: ["CAD", "Prototyping", "Mechanical Design", "Engineering Design Process"],
-    image: "public/images/Helicopter-2025-Image.jpg",
   },
   {
     title: "Software Engineering Internship",
