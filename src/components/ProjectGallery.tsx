@@ -21,7 +21,7 @@ export function ProjectGallery({ projects }: ProjectGalleryProps) {
             key={project.title}
             className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-slate-700 dark:bg-slate-900"
           >
-            {project.title !== "Discord Bot Development" && project.image ? (
+            {project.image ? (
               <button
                 type="button"
                 onClick={() => {
@@ -39,7 +39,7 @@ export function ProjectGallery({ projects }: ProjectGalleryProps) {
                 />
               </button>
             ) : null}
-            <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">{project.title}</h3>
+            <h3 className={!project.image ? "mt-4 text-xl font-semibold text-slate-900 dark:text-slate-100" : "text-xl font-semibold text-slate-900 dark:text-slate-100"}>{project.title}</h3>
             <p className="mt-3 text-sm leading-7 text-slate-700 dark:text-slate-300">{project.description}</p>
             <div className="mt-4 flex flex-wrap gap-2">
               {project.stack.map((item) => (
@@ -51,24 +51,6 @@ export function ProjectGallery({ projects }: ProjectGalleryProps) {
                 </span>
               ))}
             </div>
-            {project.title === "Discord Bot Development" && project.image ? (
-              <button
-                type="button"
-                onClick={() => {
-                  setActiveImage(project.image ?? null);
-                  setActiveTitle(project.title);
-                }}
-                className="mt-6 overflow-hidden rounded-xl border border-slate-200 text-left"
-              >
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  width={600}
-                  height={320}
-                  className="h-36 w-full object-cover transition duration-300 group-hover:scale-105"
-                />
-              </button>
-            ) : null}
             {project.link ? (
               <Link
                 href={project.link}
