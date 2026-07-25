@@ -3,6 +3,7 @@ export interface Project {
   description: string;
   stack: string[];
   link?: string;
+  website?: string;
   image?: string;
 }
 
@@ -18,6 +19,7 @@ export const projects: Project[] = [
       "Designed and developed an electrical website that acts as a competitive robotics platform, focusing on wiring reliability, subsystem coordination, and rapid debugging during build seasons.",
     stack: ["FRC", "Electrical Design", "Control Systems", "Debugging"],
     link: "https://github.com/FRCElectrical/FRCElectrical.org",
+    website: "https://frcelectrical.org",
   },
   {
     title: "Science Olympiad Build Captain Work",

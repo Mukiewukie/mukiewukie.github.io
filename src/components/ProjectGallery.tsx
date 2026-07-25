@@ -51,14 +51,24 @@ export function ProjectGallery({ projects }: ProjectGalleryProps) {
                 </span>
               ))}
             </div>
-            {project.link ? (
-              <Link
-                href={project.link}
-                className="mt-6 inline-flex text-sm font-semibold text-slate-900 transition hover:text-slate-700 group-hover:translate-x-1 dark:text-slate-100 dark:hover:text-white"
-              >
-                View project →
-              </Link>
-            ) : null}
+            <div className="mt-6 flex flex-wrap gap-4">
+              {project.website ? (
+                <Link
+                  href={project.website}
+                  className="inline-flex text-sm font-semibold text-slate-900 transition hover:text-slate-700 group-hover:translate-x-1 dark:text-slate-100 dark:hover:text-white"
+                >
+                  Visit website →
+                </Link>
+              ) : null}
+              {project.link ? (
+                <Link
+                  href={project.link}
+                  className="inline-flex text-sm font-semibold text-slate-900 transition hover:text-slate-700 group-hover:translate-x-1 dark:text-slate-100 dark:hover:text-white"
+                >
+                  View project →
+                </Link>
+              ) : null}
+            </div>
           </article>
         ))}
       </div>
