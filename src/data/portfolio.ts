@@ -16,7 +16,7 @@ export const projects: Project[] = [
   {
     title: "frcelectrical.org",
     description:
-      "Designed and developed an electrical website that acts as a competitive robotics platform, focusing on wiring reliability, subsystem coordination, and rapid debugging during build seasons.",
+      "Designed and developed an electrical website that acts as a competitive robotics platform, focusing on wiring reliability, subsystem coordination, and rapid debugging during build seasons. This app covers documemntation in FRC Electrical systems and is targeted around helping every team regardless of their price or experience with the program",
     stack: ["FRC", "Electrical Design", "Control Systems", "Debugging"],
     link: "https://github.com/FRCElectrical/FRCElectrical.org",
     website: "https://frcelectrical.org",
@@ -24,7 +24,7 @@ export const projects: Project[] = [
   {
     title: "Science Olympiad Build Captain Work",
     description:
-      "Led mechanical and systems design efforts for engineering-based Science Olympiad events, managing fabrication, testing, and iteration under time constraints.",
+      "Led mechanical and systems design efforts for engineering-based Science Olympiad events, managing fabrication, testing, and iteration under time constraints. I created a Helicopter that placed at State and Regional competitions and tuned its flight characteristics including weight, balance, rotor size, and more.",
     stack: ["CAD", "Prototyping", "Mechanical Design", "Engineering Design Process"],
   },
   {
