@@ -70,7 +70,7 @@ export const projects: Project[] = [
   {
     title: "Hyperion Space App",
     description:
-      "Developed a space-data anomaly detection app using two layered filters: a bandpass + lowpass system to suppress extreme frequency outliers, and a lowpass average-based detector that compares short-term and long-term trends to flag the largest disruptions as moon/Mars quakes.",
+      "Developed an seismic detection app using two layered filters: a bandpass + lowpass system to suppress extreme frequency outliers, and a lowpass average-based detector that compares short-term and long-term trends to flag large disruptions.",
     stack: [
       "Signal processing",
       "Bandpass filter",
@@ -99,17 +99,17 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Leadership in Technical Teams",
     description:
-      "Founded and helped lead student clubs, coordinating design planning, mentorship, and technical execution across peers.",
+      "Founded and helped lead student clubs (Science Olympiad, Envirothon, Model UN), coordinating design planning, mentorship, and execution across leadership.",
   },
   {
     title: "Robotics Systems Integration",
     description:
-      "Worked on integrating electrical, mechanical, and software components into cohesive robotics systems under competition constraints.",
+      "Worked on integrating electrical, mechanical, and software components into cohesive robots under competition constraints.",
   },
   {
     title: "Competitive STEM Experience",
     description:
-      "Participated in structured STEM competitions (robotics, hackathons, and Science Olympiad), focusing on iterative design, testing, and performance optimization.",
+      "Participated in STEM competitions (robotics, hackathons, and Science Olympiad), focusing on iterative design, testing, and performance.",
   },
   {
     title: "Communication & Advocacy (Model UN)",
