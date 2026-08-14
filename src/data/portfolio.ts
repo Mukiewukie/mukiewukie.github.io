@@ -169,6 +169,23 @@ export const experienceHighlights: Highlight[] = [
     indentLevel: 1,
   },
   {
+    title: "Model United Nations",
+    description:
+      "Participated in Model UN conferences, developing strong communication and analytical skills through research-driven debate and leadership roles. Learned to advocate for positions and collaborate with diverse perspectives.",
+    indentLevel: 1,
+  },
+  {
+    title: "Leadership & Advocacy",
+    description: "",
+    isParent: true,
+  },
+  {
+    title: "SASA Advocate",
+    description:
+      "Advocated for STEM funding at the state capitol building, meeting with representatives to discuss the importance of science, technology, engineering, and math education. Helped raise awareness about the need for increased resources in STEM programs.",
+    indentLevel: 1,
+  },
+  {
     title: "Healthcare & Social Impact",
     description: "",
     isParent: true,
