@@ -93,6 +93,19 @@ export const projects: Project[] = [
     ],
     link: "https://github.com/quadruple-t/cac-2026",
   },
+  {
+    title: "This Portfolio",
+    description:
+      "Built this portfolio website to show off my projects and skills. It's a Next.js site with a minimalist black and white design, separate pages for different sections, and a typewriter font because it looks cool. Also, this is a meta joke - I'm listing the portfolio itself as a project in the portfolio.",
+    stack: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript",
+    ],
+    link: "https://github.com/Mukiewukie/mukiewukie.github.io",
+    website: "https://mukeshramanathan.github.io",
+  },
 ];
 
 export const experienceHighlights: Highlight[] = [
