@@ -96,7 +96,7 @@ export const projects: Project[] = [
     link: "https://github.com/quadruple-t/cac-2026",
   },
   {
-    title: "This Portfolio",
+    title: "mukiewukie.github.io",
     description:
       "Built this portfolio website to show off my projects and skills. It's a Next.js site with a minimalist black and white design, separate pages for different sections, and a typewriter font because it looks cool. No way, my portfolio made my portfolio in my portfolio",
     stack: [
