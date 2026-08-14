@@ -25,13 +25,14 @@ export function NavBar() {
               <a
                 key={link.href}
                 href={link.href}
-                className={`pb-3 px-2 transition-colors ${
+                className={`pb-3 px-4 transition-colors min-w-fit relative ${
                   isActive
-                    ? "border-b-4 border-white text-white font-semibold"
+                    ? "text-white font-semibold"
                     : "text-white hover:text-gray-300"
                 }`}
               >
                 {link.label}
+                {isActive && <span className="absolute bottom-0 left-0 right-0 h-1 bg-white"></span>}
               </a>
             );
           })}
