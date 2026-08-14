@@ -96,7 +96,7 @@ export const projects: Project[] = [
   {
     title: "This Portfolio",
     description:
-      "Built this portfolio website to show off my projects and skills. It's a Next.js site with a minimalist black and white design, separate pages for different sections, and a typewriter font because it looks cool. Also, this is a meta joke - I'm listing the portfolio itself as a project in the portfolio.",
+      "Built this portfolio website to show off my projects and skills. It's a Next.js site with a minimalist black and white design, separate pages for different sections, and a typewriter font because it looks cool. No way, my portfolio made my portfolio in my portfolio",
     stack: [
       "Next.js",
       "React",
