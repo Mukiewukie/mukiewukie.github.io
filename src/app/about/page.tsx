@@ -10,15 +10,15 @@ export default function About() {
           <div className="space-y-12">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-gray-600">
-                I work with electrical engineering fundamentals, robotics, and software experimentation to create systems that are both functional and aesthetically pleasing. Building reliable prototypes, improving control workflows, and learning how to communicate technical progress clearly in collaborative teams.
+                I'm really into electrical engineering, robotics, and building things that actually work. I like taking ideas and turning them into real systems—whether that's wiring up robots, coding websites, or just figuring out how to make stuff better. I've learned a lot about working with teams and explaining technical stuff to people who might not be engineers.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                My approach to engineering is grounded in curiosity and practical application. I believe the best way to learn is by doing—taking abstract concepts and turning them into tangible systems that solve real problems. Whether it's designing electrical systems for competition robots, building web applications that serve communities, or mentoring younger students in robotics, I'm driven by the desire to create impact through technology.
+                For me, the best way to learn is just to dive in and start building. I'd rather get my hands dirty with a project than just read about it. That's why I do stuff like FRC robotics, hackathons, and personal projects—I like seeing how things work in real life, not just on paper. It's cool when you can actually use what you build to help people.
               </p>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
-              <div className="overflow-hidden border border-black">
+              <div className="overflow-hidden rounded-lg border-2 border-black">
                 <img
                   src="/images/DSC_3879.jpg"
                   alt="Robotics work"
@@ -27,7 +27,7 @@ export default function About() {
                   className="w-full h-72 object-cover"
                 />
               </div>
-              <div className="overflow-hidden border border-black">
+              <div className="overflow-hidden rounded-lg border-2 border-black">
                 <img
                   src="/images/1774531076220.jpg"
                   alt="Engineering projects"
@@ -39,33 +39,33 @@ export default function About() {
             </div>
 
             <div className="space-y-8">
-              <h3 className="text-2xl font-semibold">What drives me</h3>
+              <h3 className="text-2xl font-semibold">What I'm about</h3>
               <div className="space-y-6">
                 <div className="border-l-2 border-black pl-6">
-                  <h4 className="text-lg font-semibold mb-2">Problem-solving mindset</h4>
+                  <h4 className="text-lg font-semibold mb-2">Solving problems</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    I thrive on complex challenges that require creative solutions. From debugging electrical systems in high-pressure competition environments to designing algorithms for social impact applications, I enjoy breaking down problems and building systematic approaches to solve them.
+                    I like figuring out hard problems. Whether it's debugging electrical systems during competitions or trying to make an app that actually helps people, I enjoy breaking things down and finding solutions. It's satisfying when something that wasn't working finally clicks.
                   </p>
                 </div>
                 <div className="border-l-2 border-black pl-6">
-                  <h4 className="text-lg font-semibold mb-2">Collaborative engineering</h4>
+                  <h4 className="text-lg font-semibold mb-2">Working with teams</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    The best engineering happens in teams. I've learned to communicate technical concepts clearly, listen to diverse perspectives, and contribute effectively to group projects. Whether leading a robotics team or working on hackathon projects, collaboration is central to my process.
+                    Engineering is way better with other people. I've learned how to explain technical stuff clearly, listen to what others think, and actually contribute to group projects. Whether I'm leading the robotics team or doing a hackathon with friends, working together makes everything better.
                   </p>
                 </div>
                 <div className="border-l-2 border-black pl-6">
-                  <h4 className="text-lg font-semibold mb-2">Continuous learning</h4>
+                  <h4 className="text-lg font-semibold mb-2">Always learning</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    Technology evolves rapidly, and I'm committed to staying ahead. I actively seek out new challenges—from learning new programming languages and frameworks to understanding emerging technologies like AI and machine learning. Every project is an opportunity to grow.
+                    Tech moves fast, so I'm always trying to learn new stuff. I pick up new programming languages, try out different frameworks, and mess around with AI and machine learning when I can. Every project teaches me something new, and that's what keeps it interesting.
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold">Beyond engineering</h3>
+              <h3 className="text-2xl font-semibold">Outside of tech</h3>
               <p className="text-lg leading-relaxed text-gray-600">
-                Outside of technical work, I'm passionate about making technology accessible and impactful. Through my work with Dipdha Medical, I've seen how software can address real-world healthcare challenges. As a mentor in FLL and FTC, I've helped inspire the next generation of engineers. And through my involvement in Model UN and student leadership, I've developed the communication and advocacy skills that complement my technical abilities.
+                When I'm not coding or building robots, I like doing stuff that actually matters. Working with Dipdha Medical showed me how software can help people get healthcare they couldn't afford before. Mentoring kids in FLL and FTC is fun because I get to see them get excited about engineering. And Model UN and student leadership have helped me get better at talking to people and standing up for what I believe in.
               </p>
             </div>
           </div>
