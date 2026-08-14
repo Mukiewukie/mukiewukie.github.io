@@ -18,14 +18,14 @@ export function NavBar() {
         <a href="/" className="text-lg font-semibold tracking-tight !text-white">
           Mukesh Ramanathan
         </a>
-        <div className="flex items-center gap-4 text-sm">
+        <div className="flex items-center gap-6 text-sm">
           {links.map((link) => {
             const isActive = pathname === link.href;
             return (
               <a
                 key={link.href}
                 href={link.href}
-                className={`pb-3 px-3 transition-colors ${
+                className={`pb-3 px-2 transition-colors ${
                   isActive
                     ? "border-b-4 border-white text-white font-semibold"
                     : "text-white hover:text-gray-300"
