@@ -25,7 +25,7 @@ export function NavBar() {
               <a
                 key={link.href}
                 href={link.href}
-                className={`border-b-2 pb-1 transition-colors ${
+                className={`border-b-2 pb-1 px-1 transition-colors whitespace-nowrap ${
                   isActive
                     ? "border-white text-white"
                     : "border-transparent text-white hover:text-gray-300"

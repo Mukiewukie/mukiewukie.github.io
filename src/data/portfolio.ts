@@ -16,7 +16,7 @@ export interface Highlight {
 
 export const projects: Project[] = [
   {
-    title: "frcelectrical.org",
+    title: "FRCElectrical.org",
     description:
       "Designed and developed an electrical website that acts as a competitive robotics platform, focusing on wiring reliability, subsystem coordination, and rapid debugging during build seasons. This app covers documemntation in FRC Electrical systems and is targeted around helping every team regardless of their price or experience with the program",
     stack: ["FRC", "Electrical Design", "Control Systems", "Debugging"],
