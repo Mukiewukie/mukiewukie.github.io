@@ -35,16 +35,6 @@ body {
   font-family: 'Courier Prime', 'Courier New', monospace;
 }
 
-button,
-a,
-h1,
-h2,
-h3,
-p,
-span {
-  color: inherit;
-}
-
 a {
   text-decoration: none;
 }
