@@ -10,10 +10,10 @@ export default function About() {
           <div className="space-y-12">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-gray-600">
-                I'm really into electrical engineering, robotics, and building things that actually work. I like taking ideas and turning them into real systems—whether that's wiring up robots, coding websites, or just figuring out how to make stuff better. I've learned a lot about working with teams and explaining technical stuff to people who might not be engineers.
+                I'm really into electrical engineering, robotics, and building things that actually work. I like taking ideas and turning them into real systems, whether that's wiring up robots, coding websites, or just figuring out how to make stuff better. I've learned a lot about working with teams and explaining technical stuff to people who might not be engineers.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                For me, the best way to learn is just to dive in and start building. I'd rather get my hands dirty with a project than just read about it. That's why I do stuff like FRC robotics, hackathons, and personal projects—I like seeing how things work in real life, not just on paper. It's cool when you can actually use what you build to help people.
+                For me, the best way to learn is just to dive in and start building. I'd rather get my hands dirty with a project than just read about it. That's why I do stuff like FRC robotics, hackathons, and personal projects. I like seeing how things work in real life, not just on paper. It's cool when you can actually use what you build to help people.
               </p>
             </div>
 
