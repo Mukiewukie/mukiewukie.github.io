@@ -13,9 +13,9 @@ export function NavBar() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-20 border-b border-black bg-black">
+    <header className="sticky top-0 z-50 border-b border-black bg-black">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
-        <a href="/" className="text-lg font-semibold tracking-tight text-white">
+        <a href="/" className="text-lg font-semibold tracking-tight !text-white">
           Mukesh Ramanathan
         </a>
         <div className="flex items-center gap-4 text-sm">
@@ -25,10 +25,10 @@ export function NavBar() {
               <a
                 key={link.href}
                 href={link.href}
-                className={`border-b-2 pb-1 transition-colors ${
+                className={`border-b-2 pb-1 transition-colors !text-white ${
                   isActive
-                    ? "border-white text-white"
-                    : "border-transparent text-white hover:text-gray-300"
+                    ? "border-white"
+                    : "border-transparent hover:text-gray-300"
                 }`}
               >
                 {link.label}
