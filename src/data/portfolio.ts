@@ -97,24 +97,29 @@ export const projects: Project[] = [
 
 export const experienceHighlights: Highlight[] = [
   {
-    title: "Leadership in Technical Teams",
+    title: "Programming & Software Development",
     description:
-      "Founded and helped lead student clubs (Science Olympiad, Envirothon, Model UN), coordinating design planning, mentorship, and execution across leadership.",
+      "Built projects through hackathons, frcelectrical.org platform, and personal projects. Experienced in full-stack development, AI integration, and creating practical tools for real-world applications.",
   },
   {
-    title: "Robotics Systems Integration",
+    title: "FRC Robotics & Competition",
     description:
-      "Worked on integrating electrical, mechanical, and software components into cohesive robots under competition constraints.",
+      "Competed in FIRST Robotics Competition as a driver and team member. Won the Hopper Division at World Championship. Dedicated 3+ months to designing and building a competitive robot with integrated electrical, mechanical, and software systems.",
   },
   {
-    title: "Competitive STEM Experience",
+    title: "FLL/FTC Mentoring",
     description:
-      "Participated in STEM competitions (robotics, hackathons, and Science Olympiad), focusing on iterative design, testing, and performance.",
+      "Mentored younger students in FIRST Lego League and FIRST Tech Challenge, helping them learn robotics fundamentals, programming, and engineering design principles.",
   },
   {
-    title: "Communication & Advocacy (Model UN)",
+    title: "Kumon Assistant",
     description:
-      "Developed strong communication and analytical skills through Model United Nations, including research-driven debate and leadership roles.",
+      "Managed data tracking through KumonConnect system and helped teach students math and reading skills, ensuring accurate progress monitoring and personalized learning support.",
+  },
+  {
+    title: "Co-Accessible Health Lead @ Dipdha Medical",
+    description:
+      "Led initiative to bring discounted prescription medications to impoverished areas worldwide. Developed a website that provides medication discounts based on socioeconomic status, improving healthcare accessibility for underserved communities.",
   },
 ];
 
