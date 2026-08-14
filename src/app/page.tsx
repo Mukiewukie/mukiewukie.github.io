@@ -1,46 +1,43 @@
 import { NavBar } from "@/components/NavBar";
+import { Section } from "@/components/Section";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-black">
       <NavBar />
       <main id="home" className="mx-auto flex max-w-6xl flex-col gap-24 px-6 py-24 lg:px-8">
-        <section className="space-y-16">
-          <div className="space-y-6">
-            <h1 className="text-5xl font-semibold tracking-tight sm:text-6xl">
-              Mukesh Ramanathan.
-            </h1>
+        <Section id="home" eyebrow="Home" title="Mukesh Ramanathan.">
+          <div className="space-y-16">
             <p className="max-w-3xl text-2xl leading-relaxed text-gray-600">
               Engineering student focused on robotics, embedded systems, and building practical tools that turn ideas into reliable hardware and software.
             </p>
-          </div>
 
-          <div className="space-y-4">
-            <div className="flex items-baseline gap-4">
-              <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">role</span>
-              <span className="text-base">student · engineer</span>
-            </div>
-            <div className="flex items-baseline gap-4">
-              <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">based</span>
-              <span className="text-base">charlotte, nc</span>
-            </div>
-            <div className="flex items-baseline gap-4">
-              <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">focus</span>
-              <span className="text-base">robotics · electrical engineering · design</span>
-            </div>
-            <div className="flex items-baseline gap-4">
-              <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">class</span>
-              <span className="text-base">2027</span>
-            </div>
-            <div className="flex items-baseline gap-4">
-              <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">status</span>
-              <span className="text-base">open to internships & build projects</span>
+            <div className="space-y-4">
+              <div className="flex items-baseline gap-4">
+                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">role</span>
+                <span className="text-base">student · engineer</span>
+              </div>
+              <div className="flex items-baseline gap-4">
+                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">based</span>
+                <span className="text-base">charlotte, nc</span>
+              </div>
+              <div className="flex items-baseline gap-4">
+                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">focus</span>
+                <span className="text-base">robotics · electrical engineering · design</span>
+              </div>
+              <div className="flex items-baseline gap-4">
+                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">class</span>
+                <span className="text-base">2027</span>
+              </div>
+              <div className="flex items-baseline gap-4">
+                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">status</span>
+                <span className="text-base">open to internships & build projects</span>
+              </div>
             </div>
           </div>
-        </section>
+        </Section>
 
-        <section>
-          <h2 className="text-3xl font-semibold mb-8">Explore</h2>
+        <Section id="explore" eyebrow="Explore" title="">
           <div className="space-y-4">
             <a
               href="/about"
@@ -79,7 +76,7 @@ export default function Home() {
               </div>
             </a>
           </div>
-        </section>
+        </Section>
       </main>
     </div>
   );

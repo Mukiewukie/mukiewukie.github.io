@@ -7,7 +7,7 @@ type SectionProps = {
 
 export function Section({ id, eyebrow, title, children }: SectionProps) {
   return (
-    <section id={id} className="scroll-mt-24">
+    <section id={id}>
       <div className="mb-8">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-gray-500">
           {eyebrow}
