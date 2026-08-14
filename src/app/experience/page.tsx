@@ -8,11 +8,17 @@ export default function Experience() {
       <NavBar />
       <main className="mx-auto flex max-w-6xl flex-col gap-24 px-6 py-24 lg:px-8">
         <Section id="experience" eyebrow="Experience" title="Leadership and technical depth">
-          <div className="space-y-6">
+          <div className="space-y-8">
             {experienceHighlights.map((item) => (
-              <div key={item.title} className="border-b border-gray-200 pb-6">
-                <h3 className="text-xl font-semibold">{item.title}</h3>
-                <p className="mt-2 text-base leading-relaxed text-gray-600">{item.description}</p>
+              <div key={item.title}>
+                {item.isParent ? (
+                  <h3 className="text-2xl font-semibold mb-4">{item.title}</h3>
+                ) : (
+                  <div className={`border-b border-gray-200 pb-6 ${item.indentLevel ? 'ml-6' : ''}`}>
+                    <h4 className="text-xl font-semibold">{item.title}</h4>
+                    <p className="mt-2 text-base leading-relaxed text-gray-600">{item.description}</p>
+                  </div>
+                )}
               </div>
             ))}
           </div>

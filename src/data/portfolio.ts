@@ -10,6 +10,8 @@ export interface Project {
 export interface Highlight {
   title: string;
   description: string;
+  isParent?: boolean;
+  indentLevel?: number;
 }
 
 export const projects: Project[] = [
@@ -111,28 +113,71 @@ export const projects: Project[] = [
 export const experienceHighlights: Highlight[] = [
   {
     title: "Programming & Software Development",
+    description: "",
+    isParent: true,
+  },
+  {
+    title: "Hackathon Projects",
     description:
-      "Built projects through hackathons, frcelectrical.org platform, and personal projects. Experienced in full-stack development, AI integration, and creating practical tools for real-world applications.",
+      "Participated in multiple hackathons building AI-powered applications, file organization systems, and space data analysis tools. Gained experience in rapid prototyping, team collaboration, and delivering working solutions under tight deadlines.",
+    indentLevel: 1,
+  },
+  {
+    title: "frcelectrical.org Platform",
+    description:
+      "Designed and developed a comprehensive electrical documentation website for FRC teams, focusing on wiring reliability, subsystem coordination, and rapid debugging. Built to help teams of all experience levels improve their electrical systems.",
+    indentLevel: 1,
+  },
+  {
+    title: "Personal Software Projects",
+    description:
+      "Built various full-stack applications including AI-driven tools, web platforms, and automation scripts. Experienced with Next.js, React, Python, and integrating APIs like OpenAI and Firebase for real-world applications.",
+    indentLevel: 1,
+  },
+  {
+    title: "Robotics & Engineering",
+    description: "",
+    isParent: true,
   },
   {
     title: "FRC Robotics & Competition",
     description:
       "Competed in FIRST Robotics Competition as a driver and team member. Won the Hopper Division at World Championship. Dedicated 3+ months to designing and building a competitive robot with integrated electrical, mechanical, and software systems.",
+    indentLevel: 1,
+  },
+  {
+    title: "Science Olympiad Build Captain",
+    description:
+      "Led mechanical and systems design efforts for engineering-based Science Olympiad events, managing fabrication, testing, and iteration under time constraints. Created a Helicopter that placed at State and Regional competitions.",
+    indentLevel: 1,
+  },
+  {
+    title: "Mentoring & Education",
+    description: "",
+    isParent: true,
   },
   {
     title: "FLL/FTC Mentoring",
     description:
       "Mentored younger students in FIRST Lego League and FIRST Tech Challenge, helping them learn robotics fundamentals, programming, and engineering design principles.",
+    indentLevel: 1,
   },
   {
     title: "Kumon Assistant",
     description:
       "Managed data tracking through KumonConnect system and helped teach students math and reading skills, ensuring accurate progress monitoring and personalized learning support.",
+    indentLevel: 1,
+  },
+  {
+    title: "Healthcare & Social Impact",
+    description: "",
+    isParent: true,
   },
   {
     title: "Co-Accessible Health Lead @ Dipdha Medical",
     description:
       "Led initiative to bring discounted prescription medications to impoverished areas worldwide. Developed a website that provides medication discounts based on socioeconomic status, improving healthcare accessibility for underserved communities.",
+    indentLevel: 1,
   },
 ];
 
