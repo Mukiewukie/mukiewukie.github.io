@@ -23,22 +23,22 @@ export function NavBar() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-20 border-b border-slate-200/80 bg-white/80 backdrop-blur dark:bg-slate-950/80 dark:border-slate-700/80">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
-        <a href="#home" className="text-lg font-semibold tracking-tight text-slate-900 dark:text-slate-100">
-          Mukesh Ramanathan | Portfolio
+    <header className="sticky top-0 z-20 border-b border-black bg-white">
+      <nav className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4 lg:px-8">
+        <a href="#home" className="text-lg font-semibold tracking-tight">
+          Mukesh Ramanathan
         </a>
-        <div className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300 sm:gap-3">
+        <div className="flex items-center gap-4 text-sm">
           {links.map((link) => {
             const isActive = activeTab === link.href;
             return (
               <a
                 key={link.href}
                 href={link.href}
-                className={`inline-flex items-center rounded-full border px-4 py-2 transition focus:outline-none focus:ring-2 focus:ring-slate-300 dark:focus:ring-slate-600 ${
+                className={`border-b-2 pb-1 transition-colors ${
                   isActive
-                    ? "border-slate-900 bg-slate-100 text-slate-950 dark:border-slate-100 dark:bg-slate-800 dark:text-slate-100"
-                    : "border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 dark:text-slate-200 dark:hover:border-slate-600 dark:hover:text-white"
+                    ? "border-black text-black"
+                    : "border-transparent text-gray-600 hover:text-black"
                 }`}
               >
                 {link.label}

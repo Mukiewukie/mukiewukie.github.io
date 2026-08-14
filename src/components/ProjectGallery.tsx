@@ -1,8 +1,4 @@
-"use client";
-
-import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 import type { Project } from "@/data/portfolio";
 
 type ProjectGalleryProps = {
@@ -10,52 +6,30 @@ type ProjectGalleryProps = {
 };
 
 export function ProjectGallery({ projects }: ProjectGalleryProps) {
-  const [activeImage, setActiveImage] = useState<string | null>(null);
-  const [activeTitle, setActiveTitle] = useState<string | null>(null);
-
   return (
-    <>
-      <div className="grid gap-6 md:grid-cols-3">
-        {projects.map((project) => (
-          <article
-            key={project.title}
-            className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-slate-700 dark:bg-slate-900"
-          >
-            {project.image ? (
-              <button
-                type="button"
-                onClick={() => {
-                  setActiveImage(project.image ?? null);
-                  setActiveTitle(project.title);
-                }}
-                className="mb-4 overflow-hidden rounded-xl border border-slate-200 text-left"
-              >
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  width={600}
-                  height={320}
-                  className="h-36 w-full object-cover transition duration-300 group-hover:scale-105"
-                />
-              </button>
-            ) : null}
-            <h3 className={!project.image ? "mt-4 text-xl font-semibold text-slate-900 dark:text-slate-100" : "text-xl font-semibold text-slate-900 dark:text-slate-100"}>{project.title}</h3>
-            <p className="mt-3 text-sm leading-7 text-slate-700 dark:text-slate-300">{project.description}</p>
-            <div className="mt-4 flex flex-wrap gap-2">
+    <div className="space-y-8">
+      {projects.map((project) => (
+        <article key={project.title} className="border-b border-gray-200 pb-8">
+          <div className="flex flex-col gap-4">
+            <div>
+              <h3 className="text-xl font-semibold">{project.title}</h3>
+              <p className="mt-2 text-base leading-relaxed text-gray-600">{project.description}</p>
+            </div>
+            <div className="flex flex-wrap gap-2">
               {project.stack.map((item) => (
                 <span
                   key={item}
-                  className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-800 dark:bg-slate-800 dark:text-slate-200"
+                  className="text-sm text-gray-500"
                 >
                   {item}
                 </span>
               ))}
             </div>
-            <div className="mt-6 flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4">
               {project.website ? (
                 <Link
                   href={project.website}
-                  className="inline-flex text-sm font-semibold text-slate-900 transition hover:text-slate-700 group-hover:translate-x-1 dark:text-slate-100 dark:hover:text-white"
+                  className="border-b-2 border-black pb-1 text-sm font-medium hover:text-gray-600 transition-colors"
                 >
                   Visit website →
                 </Link>
@@ -63,43 +37,15 @@ export function ProjectGallery({ projects }: ProjectGalleryProps) {
               {project.link ? (
                 <Link
                   href={project.link}
-                  className="inline-flex text-sm font-semibold text-slate-900 transition hover:text-slate-700 group-hover:translate-x-1 dark:text-slate-100 dark:hover:text-white"
+                  className="border-b-2 border-black pb-1 text-sm font-medium hover:text-gray-600 transition-colors"
                 >
                   View project →
                 </Link>
               ) : null}
             </div>
-          </article>
-        ))}
-      </div>
-
-      {activeImage ? (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-6">
-          <div className="relative max-h-full w-full max-w-5xl overflow-hidden rounded-3xl bg-slate-950 shadow-2xl">
-            <button
-              type="button"
-              onClick={() => {
-                setActiveImage(null);
-                setActiveTitle(null);
-                }}
-              className="absolute right-4 top-4 z-10 inline-flex h-10 w-10 items-center justify-center rounded-full bg-slate-100/90 text-slate-900 transition hover:bg-white"
-            >
-            </button>
-            <div className="p-4 text-center text-sm font-medium text-slate-100">
-              {activeTitle}
-            </div>
-            <div className="border-t border-slate-700">
-              <Image
-                src={activeImage}
-                alt={activeTitle ?? "Expanded image"}
-                width={1200}
-                height={800}
-                className="h-auto w-full object-contain"
-              />
-            </div>
           </div>
-        </div>
-      ) : null}
-    </>
+        </article>
+      ))}
+    </div>
   );
 }
