@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <div className="flex items-baseline gap-4">
               <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">focus</span>
-              <span className="text-base">robotics engineering · electrical design · automation</span>
+              <span className="text-base">robotics · electrical engineering · design</span>
             </div>
             <div className="flex items-baseline gap-4">
               <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">class</span>
