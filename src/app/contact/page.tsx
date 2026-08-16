@@ -14,7 +14,7 @@ export default function Contact() {
     <div className="min-h-screen bg-white text-black">
       <NavBar />
       <main className="mx-auto flex max-w-6xl flex-col gap-24 px-6 py-24 lg:px-8">
-        <Section id="contact" eyebrow="Contact" title="Let's build something thoughtful">
+        <Section id="contact" eyebrow="Contact" title="Let's build something impactful">
           <div className="space-y-6">
             <p className="max-w-2xl text-lg leading-relaxed text-gray-600">
               I'm interested in robotics, embedded systems, and collaborative engineering work. Feel free to reach out! I'm always open for conversations about building better products.
