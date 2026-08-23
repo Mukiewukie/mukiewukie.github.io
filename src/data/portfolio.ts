@@ -117,6 +117,12 @@ export const experienceHighlights: Highlight[] = [
     isParent: true,
   },
   {
+    title: "Software Engineering Internship @ Qualizeal",
+    description:
+      "Worked as a Software Engineering Intern at an AI-powered company focused on streamlining software testing. Built a full-stack web application integrating deep learning techniques including Convolutional Neural Networks and SMOTE to analyze EEG data and predict emotional states. Gained hands-on experience with machine learning model deployment, frontend-backend integration, and applying AI to real-world data processing challenges.",
+    indentLevel: 1,
+  },
+  {
     title: "Hackathon Projects",
     description:
       "Participated in multiple hackathons building AI-powered applications, file organization systems, and space data analysis tools. Gained experience in rapid prototyping, team collaboration, and delivering working solutions under tight deadlines.",
@@ -132,12 +138,6 @@ export const experienceHighlights: Highlight[] = [
     title: "Personal Software Projects",
     description:
       "Built various full-stack applications including AI-driven tools, web platforms, and automation scripts. Experienced with Next.js, React, Python, and integrating APIs like OpenAI and Firebase for real-world applications.",
-    indentLevel: 1,
-  },
-  {
-    title: "Software Engineering Internship @ Qualizeal",
-    description:
-      "Worked as a Software Engineering Intern at an AI-powered company focused on streamlining software testing. Built a full-stack web application integrating deep learning techniques including Convolutional Neural Networks and SMOTE to analyze EEG data and predict emotional states. Gained hands-on experience with machine learning model deployment, frontend-backend integration, and applying AI to real-world data processing challenges.",
     indentLevel: 1,
   },
   {
