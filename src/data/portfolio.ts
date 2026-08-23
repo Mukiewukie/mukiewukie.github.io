@@ -135,6 +135,12 @@ export const experienceHighlights: Highlight[] = [
     indentLevel: 1,
   },
   {
+    title: "Software Engineering Internship @ Qualizeal",
+    description:
+      "Worked as a Software Engineering Intern at an AI-powered company focused on streamlining software testing. Built a full-stack web application integrating deep learning techniques including Convolutional Neural Networks and SMOTE to analyze EEG data and predict emotional states. Gained hands-on experience with machine learning model deployment, frontend-backend integration, and applying AI to real-world data processing challenges.",
+    indentLevel: 1,
+  },
+  {
     title: "Robotics & Engineering",
     description: "",
     isParent: true,
