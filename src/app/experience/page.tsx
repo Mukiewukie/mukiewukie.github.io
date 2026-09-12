@@ -1,5 +1,6 @@
 import { NavBar } from "@/components/NavBar";
 import { Section } from "@/components/Section";
+import { ExpandableImage } from "@/components/ExpandableImage";
 import { experienceHighlights } from "@/data/portfolio";
 
 export default function Experience() {
@@ -17,6 +18,9 @@ export default function Experience() {
                   <div className={`border-b border-gray-200 pb-6 ${item.indentLevel ? 'ml-6' : ''}`}>
                     <h4 className="text-xl font-semibold">{item.title}</h4>
                     <p className="mt-2 text-base leading-relaxed text-gray-600">{item.description}</p>
+                    {item.image ? (
+                      <ExpandableImage src={item.image} alt="FRC Robotics and Competition" className="mt-6 max-w-3xl" />
+                    ) : null}
                   </div>
                 )}
               </div>

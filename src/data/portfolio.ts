@@ -5,6 +5,7 @@ export interface Project {
   link?: string;
   website?: string;
   image?: string;
+  preview?: boolean;
 }
 
 export interface Highlight {
@@ -12,6 +13,7 @@ export interface Highlight {
   description: string;
   isParent?: boolean;
   indentLevel?: number;
+  image?: string;
 }
 
 export const projects: Project[] = [
@@ -22,12 +24,14 @@ export const projects: Project[] = [
     stack: ["FRC", "Electrical Design", "Control Systems", "Debugging"],
     link: "https://github.com/FRCElectrical/FRCElectrical.org",
     website: "https://frcelectrical.org",
+    preview: true,
   },
   {
     title: "Science Olympiad Build Captain Work",
     description:
       "Led mechanical and systems design efforts for engineering-based Science Olympiad events, managing fabrication, testing, and iteration under time constraints. I created a Helicopter that placed at State and Regional competitions and tuned its flight characteristics including weight, balance, rotor size, and more.",
     stack: ["CAD", "Prototyping", "Mechanical Design", "Engineering Design Process"],
+    image: "/images/Helicopter-2025-Image.jpg",
   },
   {
     title: "Software Engineering Internship",
@@ -106,7 +110,8 @@ export const projects: Project[] = [
       "TypeScript",
     ],
     link: "https://github.com/Mukiewukie/mukiewukie.github.io",
-    website: "https://mukeshramanathan.github.io",
+    website: "https://mukiewukie.github.io/",
+    preview: true,
   },
 ];
 
@@ -150,6 +155,7 @@ export const experienceHighlights: Highlight[] = [
     description:
       "Competed in FIRST Robotics Competition as a driver and team member. Won the Hopper Division at World Championship. Dedicated 3+ months to designing and building a competitive robot with integrated electrical, mechanical, and software systems.",
     indentLevel: 1,
+    image: "/images/DSC_3879.jpg",
   },
   {
     title: "Science Olympiad Build Captain",

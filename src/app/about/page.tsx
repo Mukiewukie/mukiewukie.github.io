@@ -1,5 +1,6 @@
 import { NavBar } from "@/components/NavBar";
 import { Section } from "@/components/Section";
+import { ExpandableImage } from "@/components/ExpandableImage";
 
 export default function About() {
   return (
@@ -19,21 +20,17 @@ export default function About() {
 
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="overflow-hidden rounded-lg border-2 border-black">
-                <img
+                <ExpandableImage
                   src="/images/DSC_3879.jpg"
                   alt="Robotics work"
-                  width={800}
-                  height={533}
-                  className="w-full h-72 object-cover"
+                  className="h-72 border-0"
                 />
               </div>
               <div className="overflow-hidden rounded-lg border-2 border-black">
-                <img
+                <ExpandableImage
                   src="/images/1774531076220.jpg"
                   alt="Engineering projects"
-                  width={800}
-                  height={533}
-                  className="w-full h-72 object-cover object-top"
+                  className="h-72 border-0"
                 />
               </div>
             </div>

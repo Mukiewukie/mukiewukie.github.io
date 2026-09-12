@@ -1,82 +1,40 @@
 import { NavBar } from "@/components/NavBar";
-import { Section } from "@/components/Section";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-black">
+    <div className="min-h-screen bg-[var(--paper)] text-[var(--ink)]">
       <NavBar />
-      <main id="home" className="mx-auto flex max-w-6xl flex-col gap-24 px-6 py-24 lg:px-8">
-        <Section id="home" eyebrow="Home" title="Mukesh Ramanathan.">
-          <div className="space-y-16">
-            <p className="max-w-3xl text-2xl leading-relaxed text-gray-600">
-              Engineering student focused on robotics, embedded systems, and building practical tools that turn ideas into reliable hardware and software.
-            </p>
-
-            <div className="space-y-4">
-              <div className="flex items-baseline gap-4">
-                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">role</span>
-                <span className="text-base">student · engineer</span>
-              </div>
-              <div className="flex items-baseline gap-4">
-                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">based</span>
-                <span className="text-base">charlotte, nc</span>
-              </div>
-              <div className="flex items-baseline gap-4">
-                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">focus</span>
-                <span className="text-base">robotics · electrical engineering · design</span>
-              </div>
-              <div className="flex items-baseline gap-4">
-                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">class</span>
-                <span className="text-base">2027</span>
-              </div>
-              <div className="flex items-baseline gap-4">
-                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 w-24">status</span>
-                <span className="text-base">open to internships & build projects</span>
-              </div>
+      <main id="home" className="mx-auto max-w-6xl px-6 pb-24 lg:px-8">
+        <section className="reveal grid min-h-[calc(100vh-73px)] items-center gap-12 py-16 lg:grid-cols-[1.1fr_0.9fr] lg:py-24">
+          <div>
+            <p className="mono mb-8 text-xs uppercase tracking-[0.2em] text-[var(--signal)]">Electrical engineering / robotics / software</p>
+            <h1 className="display max-w-4xl text-6xl font-bold leading-[0.94] sm:text-8xl">Building systems that <span className="text-[var(--signal)]">move.</span></h1>
+            <p className="mt-8 max-w-xl text-lg leading-8 text-[var(--muted)]">I&apos;m Mukesh Ramanathan, an engineering student in Charlotte building practical hardware and software for the real world.</p>
+            <div className="mt-10 flex flex-wrap items-center gap-5">
+              <Link href="/projects" className="bg-[var(--ink)] px-5 py-3 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5">Explore selected work <span aria-hidden="true">↗</span></Link>
+              <Link href="/contact" className="text-sm font-semibold underline decoration-[var(--signal)] decoration-2 underline-offset-8">Let&apos;s connect</Link>
             </div>
           </div>
-        </Section>
-
-        <Section id="explore" eyebrow="Explore" title="">
-          <div className="space-y-4">
-            <a
-              href="/about"
-              className="block border-b border-gray-200 pb-4 hover:text-gray-600 transition-colors"
-            >
-              <div className="flex items-center justify-between">
-                <span className="text-lg">About</span>
-                <span>→</span>
-              </div>
-            </a>
-            <a
-              href="/projects"
-              className="block border-b border-gray-200 pb-4 hover:text-gray-600 transition-colors"
-            >
-              <div className="flex items-center justify-between">
-                <span className="text-lg">Projects</span>
-                <span>→</span>
-              </div>
-            </a>
-            <a
-              href="/experience"
-              className="block border-b border-gray-200 pb-4 hover:text-gray-600 transition-colors"
-            >
-              <div className="flex items-center justify-between">
-                <span className="text-lg">Experience</span>
-                <span>→</span>
-              </div>
-            </a>
-            <a
-              href="/contact"
-              className="block border-b border-gray-200 pb-4 hover:text-gray-600 transition-colors"
-            >
-              <div className="flex items-center justify-between">
-                <span className="text-lg">Contact</span>
-                <span>→</span>
-              </div>
-            </a>
+          <div className="dot-grid relative min-h-[420px] overflow-hidden border border-[var(--line)] bg-[#e6e8e3] p-4 sm:min-h-[520px]">
+            <Image src="/images/1774531076220.jpg" alt="Mukesh at a FIRST Robotics Competition event" fill sizes="(max-width: 1024px) 100vw, 40vw" className="!relative h-full min-h-[388px] w-full object-cover object-center sm:min-h-[488px]" priority />
+            <div className="absolute bottom-8 left-8 bg-[var(--ink)] px-4 py-3 text-white"><p className="mono text-[10px] uppercase tracking-[0.15em] text-[#b9c8ff]">Currently</p><p className="mt-1 text-sm">Open to internships + build projects</p></div>
           </div>
-        </Section>
+        </section>
+
+        <section className="border-t border-[var(--line)] py-16">
+          <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+            <div><p className="mono text-xs uppercase tracking-[0.2em] text-[var(--signal)]">01 / featured build</p><h2 className="display mt-4 text-4xl font-bold">Reliable electrical systems for competitive robots.</h2></div>
+            <div><p className="max-w-2xl text-lg leading-8 text-[var(--muted)]">From wiring standards to real-time debugging, I like engineering at the point where good documentation becomes better performance.</p><Link href="/projects" className="mt-8 inline-block text-sm font-semibold underline decoration-[var(--signal)] decoration-2 underline-offset-8">See the full project index ↗</Link></div>
+          </div>
+        </section>
+
+        <section className="grid gap-6 border-t border-[var(--line)] py-16 sm:grid-cols-3">
+          <div><p className="mono text-xs uppercase tracking-[0.15em] text-[var(--muted)]">01</p><p className="mt-4 text-2xl font-semibold">World championship robotics</p><p className="mt-2 text-sm leading-6 text-[var(--muted)]">Driver and team member. Hopper Division winner.</p></div>
+          <div><p className="mono text-xs uppercase tracking-[0.15em] text-[var(--muted)]">02</p><p className="mt-4 text-2xl font-semibold">Full-stack + ML</p><p className="mt-2 text-sm leading-6 text-[var(--muted)]">Next.js, Python, data systems, and neural networks.</p></div>
+          <div><p className="mono text-xs uppercase tracking-[0.15em] text-[var(--muted)]">03</p><p className="mt-4 text-2xl font-semibold">Class of 2027</p><p className="mt-2 text-sm leading-6 text-[var(--muted)]">Charlotte, NC. Always looking for the next useful problem.</p></div>
+        </section>
       </main>
     </div>
   );
