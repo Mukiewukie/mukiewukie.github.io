@@ -7,14 +7,14 @@ export default function About() {
     <div className="min-h-screen bg-white text-black">
       <NavBar />
       <main className="mx-auto flex max-w-6xl flex-col gap-24 px-6 py-24 lg:px-8">
-        <Section id="about" eyebrow="About" title="Engineering mindset, thoughtful execution">
+        <Section id="about" eyebrow="About" title="How I approach engineering">
           <div className="space-y-12">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-gray-600">
-                I'm really into electrical engineering, robotics, and building things that actually work. I like taking ideas and turning them into real systems, whether that's wiring up robots, coding websites, or just figuring out how to make stuff better. I've learned a lot about working with teams and explaining technical stuff to people who might not be engineers.
+                I am drawn to electrical engineering because it turns ideas into systems people can use. My work ranges from wiring competition robots to building web tools, and I enjoy the discipline of taking an idea from an early sketch to a reliable result. Along the way, I have learned to explain technical decisions clearly and contribute effectively on a team.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                For me, the best way to learn is just to dive in and start building. I'd rather get my hands dirty with a project than just read about it. That's why I do stuff like FRC robotics, hackathons, and personal projects. I like seeing how things work in real life, not just on paper. It's cool when you can actually use what you build to help people.
+                I learn best by building, testing, and revising. FRC, hackathons, and personal projects have taught me to work through constraints, learn from failed attempts, and improve a design with each iteration. I am most motivated by work that is both technically demanding and useful to other people.
               </p>
             </div>
 
@@ -28,7 +28,7 @@ export default function About() {
               </div>
               <div className="overflow-hidden rounded-lg border-2 border-black">
                 <ExpandableImage
-                  src="/images/frc-world-championship.jpg"
+                  src="/images/K71A1293.jpg"
                   alt="Mukesh and teammates at the FIRST Robotics World Championship"
                   className="h-72 border-0"
                 />
@@ -36,24 +36,24 @@ export default function About() {
             </div>
 
             <div className="space-y-8">
-              <h3 className="text-2xl font-semibold">What I'm about</h3>
+              <h3 className="text-2xl font-semibold">What guides my work</h3>
               <div className="space-y-6">
                 <div className="border-l-2 border-black pl-6">
-                  <h4 className="text-lg font-semibold mb-2">Solving problems</h4>
+                  <h4 className="text-lg font-semibold mb-2">Methodical problem solving</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    I like figuring out hard problems. Whether it's debugging electrical systems during competitions or trying to make an app that actually helps people, I enjoy breaking things down and finding solutions. It's satisfying when something that wasn't working finally clicks.
+                    I break complex problems into smaller, testable parts. Whether I am troubleshooting an electrical system during competition or designing an application for a community need, I value evidence, iteration, and solutions that hold up under real conditions.
                   </p>
                 </div>
                 <div className="border-l-2 border-black pl-6">
-                  <h4 className="text-lg font-semibold mb-2">Working with teams</h4>
+                  <h4 className="text-lg font-semibold mb-2">Collaboration</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    Engineering is way better with other people. I've learned how to explain technical stuff clearly, listen to what others think, and actually contribute to group projects. Whether I'm leading the robotics team or doing a hackathon with friends, working together makes everything better.
+                    Strong engineering depends on clear communication and shared ownership. Robotics and hackathon teams have taught me to listen carefully, explain tradeoffs, and contribute where the group needs me most.
                   </p>
                 </div>
                 <div className="border-l-2 border-black pl-6">
-                  <h4 className="text-lg font-semibold mb-2">Always learning</h4>
+                  <h4 className="text-lg font-semibold mb-2">Learning through projects</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    Tech moves fast, so I'm always trying to learn new stuff. I pick up new programming languages, try out different frameworks, and mess around with AI and machine learning when I can. Every project teaches me something new, and that's what keeps it interesting.
+                    Most of my learning comes from the work in front of me. FRC, hackathons, and internships have introduced me to new programming languages, frameworks, and data tools as each project has required them.
                   </p>
                 </div>
               </div>
@@ -62,10 +62,10 @@ export default function About() {
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold">Outside of tech</h3>
               <p className="text-lg leading-relaxed text-gray-600">
-                When I'm not coding or building robots, I like doing stuff that actually matters. Working with Diphda Medical showed me how software can help people get healthcare they couldn't afford before. Mentoring kids in FLL and FTC is fun because I get to see them get excited about engineering. And Model UN and student leadership have helped me get better at talking to people and standing up for what I believe in.
+                Outside of technical projects, I stay involved in work that serves my community. At Diphda Medical, I saw how accessible technology can support affordable healthcare. Mentoring FLL and FTC students has shown me the value of helping younger students find confidence in engineering, while Model UN and student leadership have strengthened my research, public-speaking, and advocacy skills.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                I also enjoy art, video editing, and coding—creative outlets that influence how I communicate ideas and build projects.
+                I also enjoy art, video editing, and coding. Those creative interests shape how I communicate ideas and present my work.
               </p>
             </div>
           </div>

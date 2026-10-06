@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     title: "FRCElectrical.org",
     description:
-      "Founder and core contributor to an FRC electrical documentation platform focused on wiring reliability, subsystem coordination, and rapid debugging. The site attracted 450+ viewers and 2.7K+ interested users in its first week.",
+      "Founded and helped build an FRC electrical documentation platform for wiring reliability, subsystem coordination, and rapid debugging. It attracted 450+ viewers and 2.7K+ interested users in its first week.",
     stack: ["FRC", "Electrical Design", "Control Systems", "Debugging"],
     link: "https://github.com/FRCElectrical/FRCElectrical.org",
     website: "https://frcelectrical.org",
@@ -36,28 +36,28 @@ export const projects: Project[] = [
   {
     title: "Science Olympiad Build Captain Work",
     description:
-      "Led mechanical and systems design efforts for engineering-based Science Olympiad events, managing fabrication, testing, and iteration under time constraints. I created a Helicopter that placed at State and Regional competitions and tuned its flight characteristics including weight, balance, rotor size, and more.",
+      "Led mechanical and systems design for Science Olympiad build events, from fabrication and testing through final competition. Designed a helicopter that placed at regional and state competitions, refining its weight, balance, and rotor geometry through repeated testing.",
     stack: ["CAD", "Prototyping", "Mechanical Design", "Engineering Design Process"],
     image: "/images/Helicopter-2025-Image.jpg",
   },
   {
     title: "Software Engineering Internship",
     description:
-      "As a Software Engineering Intern at Qualizeal, an AI-powered company that unifies and streamlines software testing through integrated execution, planning, governance, and reporting, I developed and created a full-functioning website that incorporates frontend and backend as well as deep learning algorithms, SMOTE,  and Convolutional Neural Networks to successfully predict the emotions of an individual based on their Electroencephalogram data.",
+      "During a software engineering internship at Qualizeal, built a full-stack application that used convolutional neural networks and SMOTE to analyze EEG data and classify emotional states. The project combined frontend and backend development with machine-learning experimentation.",
     stack: ["Embedded Systems", "Python", "CNN", "Deep Learning"],
     link: "https://github.com/Mukiewukie/EEG-Processing-Site-Internship",
   },
   {
     title: "Discord Bot Development",
     description:
-      "Designed and implemented a Discord bot with custom commands and integrations, enhancing community engagement and automating routine tasks with Electrical Engineering knowledge.",
+      "Built a Discord bot with custom commands and integrations to automate routine tasks and improve community engagement.",
     stack: ["Python", "Discord API", "Asyncio"],
     image: "/images/discord-bot-screenshot.png",
   },
   {
     title: "AI Workforce Mobility Navigator",
     description:
-      "Built an AI-driven platform to help Charlotte residents discover high-demand careers, find local training, and map transportation access to opportunities.",
+      "Built a platform to help Charlotte residents identify high-demand careers, locate local training, and understand transportation access to those opportunities.",
     stack: [
       "Next.js",
       "scikit-learn",
@@ -70,7 +70,7 @@ export const projects: Project[] = [
   {
     title: "FileAtlas / GreenCode Hack",
     description:
-      "Built an AI-powered file organization system that uses context awareness, file graphs, natural language search, and duplicate detection to modernize document management.",
+      "Built a file-management system with natural-language search, file graphs, contextual organization, and duplicate detection.",
     stack: [
       "Next.js",
       "Google Drive APIs",
@@ -83,7 +83,7 @@ export const projects: Project[] = [
   {
     title: "Hyperion Space App",
     description:
-      "Developed an seismic detection app using two layered filters: a bandpass + lowpass system to suppress extreme frequency outliers, and a lowpass average-based detector that compares short-term and long-term trends to flag large disruptions.",
+      "Developed a seismic-detection application that combines bandpass and lowpass filters to reduce frequency outliers, then compares short- and long-term trends to identify significant disruptions.",
     stack: [
       "Signal processing",
       "Bandpass filter",
@@ -96,7 +96,7 @@ export const projects: Project[] = [
   {
     title: "Aid Compass",
     description:
-      "A conversational web app that guides North Carolina disaster victims through every federal, state, and local aid program they qualify for, featuring AI-powered intake, personalized aid dashboards, document checklists, deadline tracking, and FEMA case explainers to simplify disaster recovery navigation.",
+      "Built a conversational web application that helps North Carolina disaster survivors navigate federal, state, and local aid programs. It includes guided intake, personalized aid dashboards, document checklists, deadline tracking, and FEMA case explanations.",
     stack: [
       "Next.js",
       "Claude API",
@@ -109,7 +109,7 @@ export const projects: Project[] = [
   {
     title: "mukiewukie.github.io",
     description:
-      "Built this portfolio website to show off my projects and skills. It's a Next.js site with a minimalist black and white design, separate pages for different sections, and a typewriter font because it looks cool. No way, my portfolio made my portfolio in my portfolio",
+      "Designed and built this portfolio in Next.js to present my projects, experience, and technical interests through a focused, accessible interface.",
     stack: [
       "Next.js",
       "React",
@@ -131,25 +131,25 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Software Engineering Internship @ Qualizeal",
     description:
-      "Worked as a Software Engineering Intern at an AI-powered company focused on streamlining software testing. Built a full-stack web application integrating deep learning techniques including Convolutional Neural Networks and SMOTE to analyze EEG data and predict emotional states. Gained hands-on experience with machine learning model deployment, frontend-backend integration, and applying AI to real-world data processing challenges.",
+      "Completed a software engineering internship at Qualizeal, where I built a web application that used convolutional neural networks and SMOTE to analyze EEG data and classify emotional states. The project involved frontend, backend, and machine-learning work.",
     indentLevel: 1,
   },
   {
     title: "Hackathon Projects",
     description:
-      "Participated in multiple hackathons building AI-powered applications, file organization systems, and space data analysis tools. Gained experience in rapid prototyping, team collaboration, and delivering working solutions under tight deadlines.",
+      "Built AI applications, file-management tools, and space-data projects in hackathon settings. These projects strengthened my rapid-prototyping, collaboration, and presentation skills.",
     indentLevel: 1,
   },
   {
     title: "frcelectrical.org Platform",
     description:
-      "Founder and core contributor to a comprehensive electrical documentation website for FRC teams. Own the FRCElectrical.org server and moderate Jimmy's Electrical Server, supporting teams with wiring reliability, subsystem coordination, and rapid debugging. The site attracted 450+ viewers and 2.7K+ interested users in its first week.",
+      "Founded and helped build an electrical documentation platform for FRC teams. I manage the FRCElectrical.org server and moderate Jimmy's Electrical Server, helping teams with wiring reliability, subsystem coordination, and rapid debugging. The site attracted 450+ viewers and 2.7K+ interested users in its first week.",
     indentLevel: 1,
   },
   {
     title: "Personal Software Projects",
     description:
-      "Built various full-stack applications including AI-driven tools, web platforms, and automation scripts. Experienced with Next.js, React, Python, and integrating APIs like OpenAI and Firebase for real-world applications.",
+      "Built full-stack applications, web platforms, and automation scripts with Next.js, React, and Python. I regularly integrate APIs such as OpenAI and Firebase when they are useful to the product.",
     indentLevel: 1,
   },
   {
@@ -160,14 +160,14 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "FRC Robotics & Competition",
     description:
-      "Competed in FIRST Robotics Competition as a driver and team member. Won the Hopper Division at World Championship. Dedicated 3+ months to designing and building a competitive robot with integrated electrical, mechanical, and software systems.",
+      "Competed in the FIRST Robotics Competition as a driver and team member, winning the Hopper Division at the World Championship. Spent more than three months designing, building, and refining a robot that integrated electrical, mechanical, and software systems.",
     indentLevel: 1,
     image: "/images/DSC_3879.jpg",
   },
   {
     title: "Science Olympiad Build Captain",
     description:
-      "Led mechanical and systems design efforts for engineering-based Science Olympiad events, managing fabrication, testing, and iteration under time constraints. Created a Helicopter that placed at State and Regional competitions.",
+      "Led mechanical and systems design for Science Olympiad build events, managing fabrication, testing, and iteration under competition deadlines. Built a helicopter that placed at regional and state competitions.",
     indentLevel: 1,
   },
   {
@@ -178,19 +178,19 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "FLL/FTC Mentoring",
     description:
-      "Mentored younger students in FIRST Lego League and FIRST Tech Challenge, helping them learn robotics fundamentals, programming, and engineering design principles.",
+      "Mentored FIRST Lego League and FIRST Tech Challenge students in robotics fundamentals, programming, and the engineering design process.",
     indentLevel: 1,
   },
   {
     title: "Kumon Assistant",
     description:
-      "Managed data tracking through KumonConnect system and helped teach students math and reading skills, ensuring accurate progress monitoring and personalized learning support.",
+      "Managed student progress through KumonConnect and supported instruction in math and reading while maintaining accurate learning records.",
     indentLevel: 1,
   },
   {
     title: "Model United Nations",
     description:
-      "Participated in Model UN conferences, developing strong communication and analytical skills through research-driven debate and leadership roles. Learned to advocate for positions and collaborate with diverse perspectives.",
+      "Prepared for and participated in Model UN conferences through research, debate, and leadership roles. Developed stronger advocacy, public-speaking, and collaboration skills.",
     indentLevel: 1,
   },
   {
@@ -201,7 +201,7 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "SASA Advocate",
     description:
-      "Advocated for STEM funding at the state capitol building, meeting with representatives to discuss the importance of science, technology, engineering, and math education. Helped raise awareness about the need for increased resources in STEM programs.",
+      "Advocated for STEM funding at the state capitol by meeting with representatives to discuss the need for stronger science, technology, engineering, and math programs.",
     indentLevel: 1,
   },
   {
@@ -248,21 +248,22 @@ export const awards: Award[] = [
     category: "Programming · State level · 1 of 10 teams",
     description: "Co-created FileAtlas, a Google Drive-connected file-management site with project mind maps, similar-file merging, and Drive synchronization.",
   },
-  { title: "Verbal Commendation at MUNCH", group: "Environmental Competition & Model UN", category: "Model United Nations" },
-  { title: "Delegation Award, Carolinas Conference", group: "Environmental Competition & Model UN", category: "Model United Nations" },
+  { title: "Verbal Commendation at MUNCH", group: "Club Competitions", category: "Model United Nations" },
+  { title: "Delegation Award, Carolinas Conference", group: "Club Competitions", category: "Model United Nations" },
   { title: "1st Place, Optics, Boyceville Invitational", group: "Science Olympiad", category: "National level" },
   { title: "3rd Place, Geological Mapping; 5th Place, Helicopter", group: "Science Olympiad", category: "Regionals" },
   { title: "6th Place, Geological Mapping; 10th Place, Optics and Helicopter", group: "Science Olympiad", category: "States" },
   { title: "Impact Award, Asheville Event", group: "Robotics", category: "Regional" },
   { title: "Impact Award, DCMP", group: "Robotics", category: "State" },
-  { title: "6th Place, Envirothon", group: "Environmental Competition & Model UN", category: "Regionals" },
-  { title: "8th Place, Envirothon", group: "Environmental Competition & Model UN", category: "States" },
+  { title: "6th Place, Envirothon", group: "Club Competitions", category: "Regionals" },
+  { title: "8th Place, Envirothon", group: "Club Competitions", category: "States" },
   { title: "AutoCAD Certification", group: "Technical Recognition", category: "Technical certification" },
+  { title: "Software Engineering Internship Certification, Qualizeal", group: "Technical Recognition", category: "Professional certification" },
   { title: "Cabarrus County Winner", group: "Robotics", category: "Regional" },
   { title: "Elon District Winner", group: "Robotics", category: "Regional" },
   { title: "Innovation in Controls", group: "Robotics", category: "Regional" },
   { title: "6th Ranking", group: "Robotics", category: "States" },
-  { title: "4th Place, Envirothon", group: "Environmental Competition & Model UN", category: "Regionals" },
+  { title: "4th Place, Envirothon", group: "Club Competitions", category: "Regionals" },
 ];
 
 export const contactLinks = [

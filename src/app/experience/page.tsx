@@ -7,7 +7,7 @@ const awardGroups = [
   "Robotics",
   "Science Olympiad",
   "Science Fair & Programming",
-  "Environmental Competition & Model UN",
+  "Club Competitions",
   "Technical Recognition",
 ];
 
