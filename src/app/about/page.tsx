@@ -16,6 +16,9 @@ export default function About() {
               <p className="text-lg leading-relaxed text-gray-600">
                 I learn best by building, testing, and revising. FRC, hackathons, and personal projects have taught me to work through constraints, learn from failed attempts, and improve a design with each iteration. I am most motivated by work that is both technically demanding and useful to other people.
               </p>
+              <p className="text-lg leading-relaxed text-gray-600">
+                I also enjoy creating opportunities for other students. I founded my school&apos;s Model UN, Science Olympiad, and Envirothon programs; serve as engineering captain for my robotics team; and founded FRCElectrical.org to give FRC teams a practical electrical resource.
+              </p>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
