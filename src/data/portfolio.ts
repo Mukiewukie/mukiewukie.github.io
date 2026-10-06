@@ -16,6 +16,13 @@ export interface Highlight {
   image?: string;
 }
 
+export interface Award {
+  title: string;
+  group: string;
+  category: string;
+  description?: string;
+}
+
 export const projects: Project[] = [
   {
     title: "FRCElectrical.org",
@@ -203,11 +210,58 @@ export const experienceHighlights: Highlight[] = [
     isParent: true,
   },
   {
-    title: "Co-Accessible Health Lead @ Dipdha Medical",
+    title: "Accessible Health Equity Committee Member @ Diphda Medical Company (4 years)",
     description:
-      "Led initiative to bring discounted prescription medications to impoverished areas worldwide. Developed a website that provides medication discounts based on socioeconomic status, improving healthcare accessibility for underserved communities.",
+      "Provided health education to underserved populations in India and Nigeria. Maintained a Medicaid-eligible web store for affordable health products over four years.",
     indentLevel: 1,
   },
+];
+
+export const awards: Award[] = [
+  {
+    title: "Division Winner, FIRST Robotics World Championship",
+    group: "Robotics",
+    category: "World Championship",
+    description: "Primary driver in the top-32 bracket of 600 teams. Drove the robot to win the Hopper Division and worked with an alliance of teams from Australia, Canada, and Maine to advance worldwide.",
+  },
+  {
+    title: "Hopper Division Engineering Inspiration Award, FIRST Robotics World Championship",
+    group: "Robotics",
+    category: "World Championship · 1 of 74 teams",
+    description: "Recognized for thousands of hours of sustainable community outreach, including advocacy, demonstrations, and mentoring. The team also won its championship division through competitive robot performance and driving.",
+  },
+  {
+    title: "1st Place, Optics Physics & Lab, Boyceville Invitational Science Olympiad",
+    group: "Science Olympiad",
+    category: "1 of 215 teams",
+    description: "Answered questions on the physics of light and vision, including eye diseases and refraction, and conducted a lab on light propagation through a random arrangement of mirrors.",
+  },
+  {
+    title: "1st Place, Chandrayaan Science Fair",
+    group: "Science Fair & Programming",
+    category: "Science Fair",
+    description: "Researched the Chandrayaan rocket launch, built a functional rover model and scale rocket replica, and presented the project and documentation to win first place among high-school teams statewide.",
+  },
+  {
+    title: "1st Place, GreenCode Hackathon",
+    group: "Science Fair & Programming",
+    category: "Programming · State level · 1 of 10 teams",
+    description: "Co-created FileAtlas, a Google Drive-connected file-management site with project mind maps, similar-file merging, and Drive synchronization.",
+  },
+  { title: "Verbal Commendation at MUNCH", group: "Leadership & Speaking", category: "Model United Nations" },
+  { title: "1st Place, Optics, Boyceville Invitational", group: "Science Olympiad", category: "National level" },
+  { title: "3rd Place, Geological Mapping; 5th Place, Helicopter", group: "Science Olympiad", category: "Regionals" },
+  { title: "6th Place, Geological Mapping; 10th Place, Optics and Helicopter", group: "Science Olympiad", category: "States" },
+  { title: "Impact Award, Asheville Event", group: "Robotics", category: "Regional" },
+  { title: "Impact Award, DCMP", group: "Robotics", category: "State" },
+  { title: "6th Place, Envirothon", group: "Clubs & Competition", category: "Regionals" },
+  { title: "8th Place, Envirothon", group: "Clubs & Competition", category: "States" },
+  { title: "AutoCAD Certification", group: "Technical Recognition", category: "Technical certification" },
+  { title: "Cabarrus County Winner", group: "Robotics", category: "Regional" },
+  { title: "Elon District Winner", group: "Robotics", category: "Regional" },
+  { title: "Innovation in Controls", group: "Robotics", category: "Regional" },
+  { title: "6th Ranking", group: "Robotics", category: "States" },
+  { title: "4th Place, Envirothon", group: "Clubs & Competition", category: "Regionals" },
 ];
 
 export const contactLinks = [

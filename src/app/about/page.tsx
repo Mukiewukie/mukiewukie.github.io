@@ -62,7 +62,10 @@ export default function About() {
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold">Outside of tech</h3>
               <p className="text-lg leading-relaxed text-gray-600">
-                When I'm not coding or building robots, I like doing stuff that actually matters. Working with Dipdha Medical showed me how software can help people get healthcare they couldn't afford before. Mentoring kids in FLL and FTC is fun because I get to see them get excited about engineering. And Model UN and student leadership have helped me get better at talking to people and standing up for what I believe in.
+                When I'm not coding or building robots, I like doing stuff that actually matters. Working with Diphda Medical showed me how software can help people get healthcare they couldn't afford before. Mentoring kids in FLL and FTC is fun because I get to see them get excited about engineering. And Model UN and student leadership have helped me get better at talking to people and standing up for what I believe in.
+              </p>
+              <p className="text-lg leading-relaxed text-gray-600">
+                I also enjoy art, video editing, and coding—creative outlets that influence how I communicate ideas and build projects.
               </p>
             </div>
           </div>
