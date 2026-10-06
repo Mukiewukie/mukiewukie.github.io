@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     title: "FRCElectrical.org",
     description:
-      "Designed and developed an electrical website that acts as a competitive robotics platform, focusing on wiring reliability, subsystem coordination, and rapid debugging during build seasons. This app covers documemntation in FRC Electrical systems and is targeted around helping every team regardless of their price or experience with the program",
+      "Founder and core contributor to an FRC electrical documentation platform focused on wiring reliability, subsystem coordination, and rapid debugging. The site attracted 450+ viewers and 2.7K+ interested users in its first week.",
     stack: ["FRC", "Electrical Design", "Control Systems", "Debugging"],
     link: "https://github.com/FRCElectrical/FRCElectrical.org",
     website: "https://frcelectrical.org",
@@ -143,7 +143,7 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "frcelectrical.org Platform",
     description:
-      "Designed and developed a comprehensive electrical documentation website for FRC teams, focusing on wiring reliability, subsystem coordination, and rapid debugging. Built to help teams of all experience levels improve their electrical systems.",
+      "Founder and core contributor to a comprehensive electrical documentation website for FRC teams. Own the FRCElectrical.org server and moderate Jimmy's Electrical Server, supporting teams with wiring reliability, subsystem coordination, and rapid debugging. The site attracted 450+ viewers and 2.7K+ interested users in its first week.",
     indentLevel: 1,
   },
   {
@@ -248,20 +248,21 @@ export const awards: Award[] = [
     category: "Programming · State level · 1 of 10 teams",
     description: "Co-created FileAtlas, a Google Drive-connected file-management site with project mind maps, similar-file merging, and Drive synchronization.",
   },
-  { title: "Verbal Commendation at MUNCH", group: "Leadership & Speaking", category: "Model United Nations" },
+  { title: "Verbal Commendation at MUNCH", group: "Environmental Competition & Model UN", category: "Model United Nations" },
+  { title: "Delegation Award, Carolinas Conference", group: "Environmental Competition & Model UN", category: "Model United Nations" },
   { title: "1st Place, Optics, Boyceville Invitational", group: "Science Olympiad", category: "National level" },
   { title: "3rd Place, Geological Mapping; 5th Place, Helicopter", group: "Science Olympiad", category: "Regionals" },
   { title: "6th Place, Geological Mapping; 10th Place, Optics and Helicopter", group: "Science Olympiad", category: "States" },
   { title: "Impact Award, Asheville Event", group: "Robotics", category: "Regional" },
   { title: "Impact Award, DCMP", group: "Robotics", category: "State" },
-  { title: "6th Place, Envirothon", group: "Clubs & Competition", category: "Regionals" },
-  { title: "8th Place, Envirothon", group: "Clubs & Competition", category: "States" },
+  { title: "6th Place, Envirothon", group: "Environmental Competition & Model UN", category: "Regionals" },
+  { title: "8th Place, Envirothon", group: "Environmental Competition & Model UN", category: "States" },
   { title: "AutoCAD Certification", group: "Technical Recognition", category: "Technical certification" },
   { title: "Cabarrus County Winner", group: "Robotics", category: "Regional" },
   { title: "Elon District Winner", group: "Robotics", category: "Regional" },
   { title: "Innovation in Controls", group: "Robotics", category: "Regional" },
   { title: "6th Ranking", group: "Robotics", category: "States" },
-  { title: "4th Place, Envirothon", group: "Clubs & Competition", category: "Regionals" },
+  { title: "4th Place, Envirothon", group: "Environmental Competition & Model UN", category: "Regionals" },
 ];
 
 export const contactLinks = [

@@ -28,8 +28,8 @@ export default function About() {
               </div>
               <div className="overflow-hidden rounded-lg border-2 border-black">
                 <ExpandableImage
-                  src="/images/1774531076220.jpg"
-                  alt="Engineering projects"
+                  src="/images/frc-world-championship.jpg"
+                  alt="Mukesh and teammates at the FIRST Robotics World Championship"
                   className="h-72 border-0"
                 />
               </div>
