@@ -141,7 +141,7 @@ export const experienceHighlights: Highlight[] = [
     indentLevel: 1,
   },
   {
-    title: "Founder, FRCElectrical.org",
+    title: "Founder & Core Contributor, FRCElectrical.org",
     description:
       "Founded and helped build an electrical documentation platform for FRC teams. I manage the FRCElectrical.org server and moderate Jimmy's Electrical Server, helping teams with wiring reliability, subsystem coordination, and rapid debugging. The site attracted 450+ viewers and 2.7K+ interested users in its first week.",
     indentLevel: 1,
@@ -158,14 +158,14 @@ export const experienceHighlights: Highlight[] = [
     isParent: true,
   },
   {
-    title: "Engineering Captain, FRC Robotics",
+    title: "Engineering Captain, YETI 3506 Robotics",
     description:
       "Serve as engineering captain, driver, and team member in the FIRST Robotics Competition. Won the Hopper Division at the World Championship and spent more than three months designing, building, and refining a robot that integrated electrical, mechanical, and software systems.",
     indentLevel: 1,
     image: "/images/DSC_3879.jpg",
   },
   {
-    title: "Founder and Build Captain, Science Olympiad",
+    title: "Founder, Treasurer, and Build Captain, Science Olympiad",
     description:
       "Founded my school's Science Olympiad program and led mechanical and systems design for build events. Managed fabrication, testing, and iteration under competition deadlines, including a helicopter that placed at regional and state competitions.",
     indentLevel: 1,
