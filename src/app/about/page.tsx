@@ -7,17 +7,17 @@ export default function About() {
     <div className="min-h-screen bg-white text-black">
       <NavBar />
       <main className="mx-auto flex max-w-6xl flex-col gap-24 px-6 py-24 lg:px-8">
-        <Section id="about" eyebrow="About" title="How I approach engineering">
+        <Section id="about" eyebrow="About" title="What I’m learning by building">
           <div className="space-y-12">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-gray-600">
-                I am drawn to electrical engineering because it turns ideas into systems people can use. My work ranges from wiring competition robots to building web tools, and I enjoy the discipline of taking an idea from an early sketch to a reliable result. Along the way, I have learned to explain technical decisions clearly and contribute effectively on a team.
+                I&apos;m a high school student in Charlotte, and I&apos;m interested in electrical engineering, robotics, and software. So far, I&apos;ve learned the most by working on real projects: tracing a wiring problem on a competition robot, testing a model helicopter, or trying to make a web tool easier to use. I&apos;m still figuring out which parts of engineering I enjoy most.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                I learn best by building, testing, and revising. FRC, hackathons, and personal projects have taught me to work through constraints, learn from failed attempts, and improve a design with each iteration. I am most motivated by work that is both technically demanding and useful to other people.
+                Building things has also taught me that my first idea is rarely the finished one. FRC, hackathons, and personal projects have given me practice testing ideas, learning from mistakes, and asking teammates for help. I especially like projects that solve a concrete problem, such as helping a robotics team troubleshoot wiring or helping people find local career training.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                I also enjoy creating opportunities for other students. I founded my school&apos;s Model UN, Science Olympiad, and Envirothon programs; serve as engineering captain for my robotics team; and founded FRCElectrical.org to give FRC teams a practical electrical resource.
+                I&apos;ve had the chance to help start Model UN, Science Olympiad, and Envirothon at my school, and I serve as an engineering captain on my robotics team. I also started FRCElectrical.org with help from others. These experiences have taught me that a good project depends on people sharing ideas and pitching in.
               </p>
             </div>
 
@@ -44,19 +44,19 @@ export default function About() {
                 <div className="border-l-2 border-black pl-6">
                   <h4 className="text-lg font-semibold mb-2">Methodical problem solving</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    I break complex problems into smaller, testable parts. Whether I am troubleshooting an electrical system during competition or designing an application for a community need, I value evidence, iteration, and solutions that hold up under real conditions.
+                    I try to break a big problem into smaller things I can check. On a robot, that might mean tracing one circuit at a time. In a software project, it might mean testing one feature with someone who could use it. I&apos;m learning to check my assumptions instead of guessing.
                   </p>
                 </div>
                 <div className="border-l-2 border-black pl-6">
                   <h4 className="text-lg font-semibold mb-2">Collaboration</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    Strong engineering depends on clear communication and shared ownership. Robotics and hackathon teams have taught me to listen carefully, explain tradeoffs, and contribute where the group needs me most.
+                    Team projects have shown me that I do better work when I listen and ask questions. Robotics and hackathons have given me practice sharing what I know, learning from other people, and helping with whatever the team needs.
                   </p>
                 </div>
                 <div className="border-l-2 border-black pl-6">
                   <h4 className="text-lg font-semibold mb-2">Learning through projects</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    Most of my learning comes from the work in front of me. FRC, hackathons, and internships have introduced me to new programming languages, frameworks, and data tools as each project has required them.
+                    I&apos;m still early in learning engineering, so every project brings something new. FRC, hackathons, and my internship have helped me try programming tools and data methods I had not used before. I like having a reason to learn something and a project where I can put it to use.
                   </p>
                 </div>
               </div>

@@ -16,7 +16,7 @@ export default function Experience() {
     <div className="min-h-screen bg-white text-black">
       <NavBar />
       <main className="mx-auto flex max-w-6xl flex-col gap-24 px-6 py-24 lg:px-8">
-        <Section id="experience" eyebrow="Experience" title="Leadership and technical depth">
+        <Section id="experience" eyebrow="Experience" title="Projects, teams, and what I’ve learned">
           <div className="space-y-8">
             {experienceHighlights.map((item) => (
               <div key={item.title}>

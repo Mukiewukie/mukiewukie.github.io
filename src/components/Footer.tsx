@@ -13,7 +13,7 @@ export function Footer() {
           <p className="mono text-xs uppercase tracking-[0.18em] text-[#b9c8ff]">Get in touch</p>
           <h2 className="display mt-4 max-w-xl text-4xl font-bold leading-tight sm:text-5xl">Let&apos;s build something useful.</h2>
           <p className="mt-5 max-w-xl text-base leading-7 text-gray-300">
-            I am interested in robotics, embedded systems, and collaborative engineering work. Reach out to discuss a project, opportunity, or problem worth solving.
+            I&apos;m interested in robotics, electrical engineering, and software projects. If you have a project or opportunity you think I could learn from, I&apos;d be glad to hear about it.
           </p>
         </div>
         <div className="flex flex-col justify-end gap-4 lg:items-start">
