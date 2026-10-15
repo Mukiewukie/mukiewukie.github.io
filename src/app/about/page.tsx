@@ -65,10 +65,10 @@ export default function About() {
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold">Outside of tech</h3>
               <p className="text-lg leading-relaxed text-gray-600">
-                Outside of technical projects, I stay involved in work that serves my community. At Diphda Medical, I saw how accessible technology can support affordable healthcare. Mentoring FLL and FTC students has shown me the value of helping younger students find confidence in engineering, while Model UN and student leadership have strengthened my research, public-speaking, and advocacy skills.
+                Outside of technical projects, I try to contribute to my community and learn from the people around me. At Diphda Medical, I saw how accessible technology can support affordable healthcare. Mentoring FLL and FTC students has shown me how rewarding it is to help younger students build confidence in engineering. I also helped start Science Olympiad, Model UN, and Envirothon clubs at my school, and those experiences gave me chances to learn alongside other students.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                I also enjoy art, video editing, and coding. Those creative interests shape how I communicate ideas and present my work.
+                I enjoy art, video editing, and coding. I also like trading FRC shirts at competitions; it gives me an easy way to meet people from other teams, hear about their robots, and feel more connected to the wider robotics community. Those creative and community interests shape how I share my own work, too.
               </p>
             </div>
           </div>

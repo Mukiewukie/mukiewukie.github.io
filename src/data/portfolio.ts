@@ -111,7 +111,7 @@ export const projects: Project[] = [
   {
     title: "mukiewukie.github.io",
     description:
-      "Designed and built this portfolio in Next.js to present my projects, experience, and technical interests through a focused, accessible interface.",
+      "No way, my portfolio made it into my portfolio. I built this Next.js site to share my projects, experience, and the things I’m still learning.",
     stack: [
       "Next.js",
       "React",
@@ -162,7 +162,7 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Engineering Captain, YETI 3506 Robotics",
     description:
-      "Serve as engineering captain, driver, and team member in the FIRST Robotics Competition. Won the Hopper Division at the World Championship and spent more than three months designing, building, and refining a robot that integrated electrical, mechanical, and software systems.",
+      "I’m grateful to be part of YETI 3506, where I serve as an engineering captain and driver. At the FIRST Robotics World Championship, I drove during the playoff bracket, and our alliance won the Hopper Division. Over the season, I worked with teammates to test and improve a robot that brought together electrical, mechanical, and software systems. I learned a lot from their teamwork and from our alliance partners.",
     indentLevel: 1,
     image: "/images/DSC_3879.jpg",
   },

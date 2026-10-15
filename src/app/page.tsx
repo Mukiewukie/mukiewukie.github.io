@@ -31,9 +31,9 @@ export default function Home() {
         </section>
 
         <section className="grid gap-6 border-t border-[var(--line)] py-16 sm:grid-cols-3">
-          <div><p className="mono text-xs uppercase tracking-[0.15em] text-[var(--muted)]">01</p><p className="mt-4 text-2xl font-semibold">World championship robotics</p><p className="mt-2 text-sm leading-6 text-[var(--muted)]">I drove and worked with my team, which won the Hopper Division.</p></div>
+          <div><p className="mono text-xs uppercase tracking-[0.15em] text-[var(--muted)]">01</p><p className="mt-4 text-2xl font-semibold">World championship robotics</p><p className="mt-2 text-sm leading-6 text-[var(--muted)]">I drove for YETI 3506 at the FIRST Robotics World Championship, where our alliance won the Hopper Division. I was grateful to compete alongside my teammates and alliance partners, and learned how much trust and communication matter in a match.</p></div>
           <div><p className="mono text-xs uppercase tracking-[0.15em] text-[var(--muted)]">02</p><p className="mt-4 text-2xl font-semibold">Problems I&apos;m exploring</p><p className="mt-2 text-sm leading-6 text-[var(--muted)]">Unequal access to STEM, gaps in robot-building documentation, and research questions like whether EEG data can help classify emotional states. <Link href="/problems" className="font-semibold underline decoration-[var(--signal)] decoration-2 underline-offset-4">See the projects ↗</Link></p></div>
-          <div><p className="mono text-xs uppercase tracking-[0.15em] text-[var(--muted)]">03</p><p className="mt-4 text-2xl font-semibold">What I&apos;m looking for</p><p className="mt-2 text-sm leading-6 text-[var(--muted)]">I&apos;m in the Class of 2027 and based in Charlotte, NC. I&apos;d be grateful for opportunities to learn from people working on practical STEM, engineering, or research projects.</p></div>
+          <div><p className="mono text-xs uppercase tracking-[0.15em] text-[var(--muted)]">03</p><p className="mt-4 text-2xl font-semibold">Where I&apos;d like to grow</p><p className="mt-2 text-sm leading-6 text-[var(--muted)]">I&apos;m in the Class of 2027 and based in Charlotte, NC. I&apos;d be grateful for chances to learn from people working on practical STEM, engineering, or research projects and to contribute wherever I can.</p></div>
         </section>
       </main>
     </div>

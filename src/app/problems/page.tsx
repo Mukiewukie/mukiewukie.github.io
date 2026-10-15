@@ -11,17 +11,12 @@ const problems = [
   {
     title: "Making opportunities easier to find",
     description:
-      "Access to learning and career opportunities is not the same for everyone. I worked on a project to help Charlotte residents explore in-demand careers, find nearby training, and understand transportation options. It gave me a small way to think about how better access to information can help people plan their next steps.",
+      "Access to STEM learning and career opportunities is not the same for everyone. I helped start Science Olympiad and Envirothon at my school so more students could try team science and engineering events. I also worked on a project to help Charlotte residents explore in-demand careers, find nearby training, and understand transportation options. These experiences have helped me think about practical ways to make opportunities easier to discover and join.",
   },
   {
-    title: "Exploring a research question with EEG data",
+    title: "Using research and testing to understand problems",
     description:
-      "During my internship at Qualizeal, I was fortunate to help build a web application that processes EEG data. We explored whether a machine-learning model could classify emotional states. I learned that preparing data and testing an approach carefully are important, and that a promising research question takes much more work to answer.",
-  },
-  {
-    title: "Making disaster aid easier to navigate",
-    description:
-      "After a disaster, people may need to sort through many assistance programs, documents, and deadlines. I worked with a team on Aid Compass, a web app designed to help North Carolina survivors understand aid options and keep track of next steps.",
+      "I’ve explored questions in a few different settings: at Qualizeal, I helped process EEG data and test whether a model could classify emotional states; in Science Olympiad, teammates and I built devices and learned from repeated trials; and in a space-data project, I helped look for unusual patterns in seismic signals. These projects taught me that useful results take careful research, testing, and a willingness to revise an idea. I’m grateful to the people who helped me learn along the way.",
   },
 ];
 
