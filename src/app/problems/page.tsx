@@ -18,6 +18,11 @@ const problems = [
     description:
       "I’ve explored questions in a few different settings: at Qualizeal, I helped process EEG data and test whether a model could classify emotional states; in Science Olympiad, teammates and I built devices and learned from repeated trials; and in a space-data project, I helped look for unusual patterns in seismic signals. These projects taught me that useful results take careful research, testing, and a willingness to revise an idea. I’m grateful to the people who helped me learn along the way.",
   },
+  {
+    title: "Making complex information easier to act on",
+    description:
+      "Several projects I’ve worked on try to make scattered information easier to use. The Workforce Mobility Navigator brings local career, training, and transportation details together; Aid Compass organizes disaster assistance programs and next steps; and FileAtlas helps people find and organize files. I’m learning to ask what someone needs to know first and how a tool can make that next step clearer.",
+  },
 ];
 
 export default function Problems() {

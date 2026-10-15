@@ -8,6 +8,7 @@ const links = [
   { href: "/problems", label: "Problems" },
   { href: "/projects", label: "Projects" },
   { href: "/experience", label: "Experience" },
+  { href: "/recognition", label: "Recognition" },
 ];
 
 export function NavBar() {
@@ -23,7 +24,7 @@ export function NavBar() {
           {links.map((link) => {
             const isActive = pathname === link.href;
             return (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className={`border-b-2 pb-1 transition-colors ${
@@ -33,7 +34,7 @@ export function NavBar() {
                 }`}
               >
                 {link.label}
-              </a>
+              </Link>
             );
           })}
         </div>
