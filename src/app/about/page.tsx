@@ -11,13 +11,13 @@ export default function About() {
           <div className="space-y-12">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-gray-600">
-                I&apos;m a high school student in Charlotte, and I&apos;m interested in electrical engineering, robotics, and software. So far, I&apos;ve learned the most by working on real projects: tracing a wiring problem on a competition robot, testing a model helicopter, or trying to make a web tool easier to use. I&apos;m still figuring out which parts of engineering I enjoy most.
+                I&apos;m a high school student in Charlotte, and I&apos;m interested in electrical engineering, robotics, and software. I learn best by trying things out. That might mean tracing a wiring problem on a robot, testing a model helicopter, or making a web tool easier to use. I&apos;m still figuring out which parts of engineering I like most.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                Building things has also taught me that my first idea is rarely the finished one. FRC, hackathons, and personal projects have given me practice testing ideas, learning from mistakes, and asking teammates for help. I especially like projects that solve a concrete problem, such as helping a robotics team troubleshoot wiring or helping people find local career training.
+                I&apos;ve learned that my first idea is usually not the final one. FRC, hackathons, and personal projects have taught me to test things, learn from mistakes, and ask teammates for help. I like projects that solve a real problem, like helping a robotics team figure out its wiring or helping people find career training nearby.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                I&apos;ve had the chance to help start Model UN, Science Olympiad, and Envirothon at my school, and I serve as an engineering captain on my robotics team. I also started FRCElectrical.org with help from others. These experiences have taught me that a good project depends on people sharing ideas and pitching in.
+                I&apos;ve helped start Model UN, Science Olympiad, and Envirothon at my school. I&apos;m also an engineering captain on my robotics team, and I helped start FRCElectrical.org with other students and mentors. I&apos;ve learned that projects go better when people share ideas and help each other out.
               </p>
             </div>
 
@@ -39,24 +39,24 @@ export default function About() {
             </div>
 
             <div className="space-y-8">
-              <h3 className="text-2xl font-semibold">What guides my work</h3>
+              <h3 className="text-2xl font-semibold">How I like to work</h3>
               <div className="space-y-6">
                 <div className="border-l-2 border-black pl-6">
-                  <h4 className="text-lg font-semibold mb-2">Methodical problem solving</h4>
+                  <h4 className="text-lg font-semibold mb-2">Taking it one step at a time</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    I try to break a big problem into smaller things I can check. On a robot, that might mean tracing one circuit at a time. In a software project, it might mean testing one feature with someone who could use it. I&apos;m learning to check my assumptions instead of guessing.
+                    I try to break big problems into smaller steps. On a robot, I might trace one circuit at a time. For a website, I might ask someone to try one feature. I&apos;m learning to check my ideas instead of just guessing.
                   </p>
                 </div>
                 <div className="border-l-2 border-black pl-6">
                   <h4 className="text-lg font-semibold mb-2">Collaboration</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    Team projects have shown me that I do better work when I listen and ask questions. Robotics and hackathons have given me practice sharing what I know, learning from other people, and helping with whatever the team needs.
+                    I do better when I listen and ask questions. On robotics and hackathon teams, I&apos;ve learned to share what I know, learn from others, and help with whatever needs doing.
                   </p>
                 </div>
                 <div className="border-l-2 border-black pl-6">
                   <h4 className="text-lg font-semibold mb-2">Learning through projects</h4>
                   <p className="text-base leading-relaxed text-gray-600">
-                    I&apos;m still early in learning engineering, so every project brings something new. FRC, hackathons, and my internship have helped me try programming tools and data methods I had not used before. I like having a reason to learn something and a project where I can put it to use.
+                    I&apos;m still learning engineering, so every project teaches me something new. FRC, hackathons, and my internship have helped me try new coding tools and ways to work with data. I like learning something and then using it in a project.
                   </p>
                 </div>
               </div>
@@ -65,10 +65,10 @@ export default function About() {
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold">Outside of tech</h3>
               <p className="text-lg leading-relaxed text-gray-600">
-                Outside of technical projects, I try to contribute to my community and learn from the people around me. At Diphda Medical, I saw how accessible technology can support affordable healthcare. Mentoring FLL and FTC students has shown me how rewarding it is to help younger students build confidence in engineering. I also helped start Science Olympiad, Model UN, and Envirothon clubs at my school, and those experiences gave me chances to learn alongside other students.
+                I also like helping out in my community and learning from other people. At Diphda Medical, I saw how technology can help make healthcare more affordable. Mentoring FLL and FTC students has shown me how much it can mean to help younger students feel more confident in engineering. I helped start Science Olympiad, Model UN, and Envirothon clubs at my school, and got to learn alongside other students.
               </p>
               <p className="text-lg leading-relaxed text-gray-600">
-                I enjoy art, video editing, and coding. I also like trading FRC shirts at competitions; it gives me an easy way to meet people from other teams, hear about their robots, and feel more connected to the wider robotics community. Those creative and community interests shape how I share my own work, too.
+                I enjoy art, video editing, and coding. I also like trading FRC shirts at competitions. It&apos;s a fun way to meet people from other teams, hear about their robots, and feel more connected to the FRC community. I bring some of that creativity into how I share my projects, too.
               </p>
             </div>
           </div>

@@ -4,24 +4,24 @@ import { Section } from "@/components/Section";
 
 const problems = [
   {
-    title: "Making robotics documentation easier to use",
+    title: "Helping robot teams find clear instructions",
     description:
-      "FRC teams need clear, reliable instructions for wiring and connecting robot components, but useful information can be spread across many places. With other students and mentors, I helped build FRCElectrical.org, a free, open-source resource with a learning course, control-system explanations, wiring and connection guides, tool recommendations, and educator materials. We hope it can help teams around the world learn electrical basics and build with more confidence.",
+      "FRC teams need good instructions for wiring their robots, but the information can be hard to find. I helped build FRCElectrical.org with other students and mentors. It is a free site with an intro course, wiring guides, tool suggestions, and materials for teachers. We hope teams around the world can use it to learn the basics and feel more confident working on their robots.",
   },
   {
-    title: "Making opportunities easier to find",
+    title: "Helping students find more opportunities",
     description:
-      "Access to STEM learning and career opportunities is not the same for everyone. I helped start Science Olympiad and Envirothon at my school so more students could try team science and engineering events. I also worked on a project to help Charlotte residents explore in-demand careers, find nearby training, and understand transportation options. These experiences have helped me think about practical ways to make opportunities easier to discover and join.",
+      "Not every student has the same chances to try STEM. I helped start Science Olympiad and Envirothon at my school so more students could take part in science and engineering events. I also worked on a project to help people in Charlotte find jobs, nearby training, and ways to get there. I hope to keep finding ways to make these opportunities easier to learn about and join.",
   },
   {
-    title: "Using research and testing to understand problems",
+    title: "Learning by researching and testing",
     description:
-      "I’ve explored questions in a few different settings: at Qualizeal, I helped process EEG data and test whether a model could classify emotional states; in Science Olympiad, teammates and I built devices and learned from repeated trials; and in a space-data project, I helped look for unusual patterns in seismic signals. These projects taught me that useful results take careful research, testing, and a willingness to revise an idea. I’m grateful to the people who helped me learn along the way.",
+      "I've tried to answer questions in different projects. At Qualizeal, I helped work with EEG data and test if a computer model could sort emotional states. In Science Olympiad, my teammates and I built devices and tested them again and again. In a space-data project, I helped look for unusual patterns in seismic signals. These projects taught me to research carefully, test my ideas, and change things when they don't work. I'm thankful to the people who have helped me learn.",
   },
   {
-    title: "Making complex information easier to act on",
+    title: "Making lots of information easier to use",
     description:
-      "Several projects I’ve worked on try to make scattered information easier to use. The Workforce Mobility Navigator brings local career, training, and transportation details together; Aid Compass organizes disaster assistance programs and next steps; and FileAtlas helps people find and organize files. I’m learning to ask what someone needs to know first and how a tool can make that next step clearer.",
+      "I've worked on a few projects that bring information together. The Workforce Mobility Navigator puts local job, training, and transportation details in one place. Aid Compass helps people look through disaster aid programs and keep track of what to do next. FileAtlas helps people find and organize their files. I'm learning to think about what people need to know and how a tool can make it easier to find.",
   },
 ];
 
@@ -32,7 +32,7 @@ export default function Problems() {
       <main className="mx-auto flex max-w-6xl flex-col gap-16 px-6 py-24 lg:px-8">
         <Section id="problems" eyebrow="What I’m exploring" title="Projects start with a problem">
           <p className="max-w-3xl text-lg leading-8 text-gray-600">
-            I&apos;m a high school student, and I&apos;m still learning how to turn an idea into something useful. These are a few problems I care about—unequal access to STEM and career opportunities, gaps in robotics documentation, and questions that research might help us explore.
+            I&apos;m a high school student, and I&apos;m still learning how to turn ideas into useful projects. I care about helping more students try STEM, making robot instructions easier to find, and using research to answer questions.
           </p>
         </Section>
 

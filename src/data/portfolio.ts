@@ -28,7 +28,7 @@ export const projects: Project[] = [
   {
     title: "FRCElectrical.org",
     description:
-      "With help from teammates and mentors, I helped build FRCElectrical.org, a free, open-source resource for FRC teams anywhere in the world. It offers a step-by-step introduction to FRC electrical systems, control-system explanations, wiring and connection guides, tool and parts recommendations, and a handbook for educators. We hope it makes reliable electrical knowledge easier to find, especially for students and teams who are still learning where to start. I feel lucky to work on it, and grateful to everyone who has shared feedback and helped it grow.",
+      "I helped build FRCElectrical.org with other students and mentors. It is a free, open-source guide for FRC teams around the world. It has lessons on the control system, wiring and connection guides, tool and parts suggestions, and a handbook for teachers. We hope it helps teams learn electrical basics and find answers while they build. I feel lucky to be part of it and appreciate everyone who has shared ideas and feedback.",
     stack: ["FRC", "Electrical Design", "Control Systems", "Debugging"],
     link: "https://github.com/FRCElectrical/FRCElectrical.org",
     website: "https://frcelectrical.org",
@@ -38,14 +38,14 @@ export const projects: Project[] = [
   {
     title: "Science Olympiad Build Captain Work",
     description:
-      "Science Olympiad is a team competition with events in science, engineering, and building. I helped my teammates prepare for Helicopter, Boomilever, Electric Vehicle, and Robot Tour. For Helicopter, we built and tested a small model, adjusting its weight, balance, and rotors between flights. For Boomilever, we designed and tested a lightweight bridge; for Electric Vehicle, we built and tuned a small vehicle to meet the event rules; and for Robot Tour, we prepared a robot to navigate a course. I was grateful to learn alongside my teammates, especially when our first designs needed changes.",
+      "Science Olympiad is a team competition with events in science, engineering, and building. I helped my teammates prepare for Helicopter, Boomilever, Electric Vehicle, and Robot Tour. For Helicopter, we built a small model and changed its weight, balance, and rotors between test flights. For Boomilever, we designed and tested a light bridge. For Electric Vehicle, we built and adjusted a small car to meet the rules. For Robot Tour, we got a robot ready to follow a course. I learned a lot from my teammates and from designs that needed more work.",
     stack: ["CAD", "Prototyping", "Mechanical Design", "Engineering Design Process"],
     image: "/images/Helicopter-2025-Image.jpg",
   },
   {
     title: "Software Engineering Internship",
     description:
-      "I feel very fortunate to have interned at Qualizeal and to have learned from its software engineering team. I helped build a web application for processing EEG (brainwave) data and explored whether a convolutional neural network could classify emotional states. I learned about connecting frontend and backend code, preparing data, and testing a machine-learning approach carefully. I was happy to contribute, and I’m thankful to the team for their guidance and patience.",
+      "I feel really lucky to have interned at Qualizeal and learned from its software engineering team. I helped build a web app that works with EEG (brainwave) data. We tested whether a convolutional neural network could sort the data into emotional states. I learned how the frontend and backend work together, how important it is to prepare data, and how to test a model. I was happy to help and thankful to the team for being patient and answering my questions.",
     stack: ["Python", "EEG Data", "CNN", "Machine Learning"],
     link: "https://github.com/Mukiewukie/EEG-Processing-Site-Internship",
   },
@@ -59,7 +59,7 @@ export const projects: Project[] = [
   {
     title: "AI Workforce Mobility Navigator",
     description:
-      "Built a platform to help Charlotte residents identify high-demand careers, locate local training, and understand transportation access to those opportunities.",
+      "Helped build a site where people in Charlotte can look up growing job fields, find nearby training, and see how they might get there.",
     stack: [
       "Next.js",
       "scikit-learn",
@@ -72,7 +72,7 @@ export const projects: Project[] = [
   {
     title: "FileAtlas / GreenCode Hack",
     description:
-      "Built a file-management system with natural-language search, file graphs, contextual organization, and duplicate detection.",
+      "Helped build a file tool that lets people search in everyday language, see how their files connect, organize them, and find duplicates.",
     stack: [
       "Next.js",
       "Google Drive APIs",
@@ -85,7 +85,7 @@ export const projects: Project[] = [
   {
     title: "Hyperion Space App",
     description:
-      "Developed a seismic-detection application that combines bandpass and lowpass filters to reduce frequency outliers, then compares short- and long-term trends to identify significant disruptions.",
+      "Helped make an app that looks for unusual patterns in seismic data. It filters out extra noise and compares short-term and long-term changes.",
     stack: [
       "Signal processing",
       "Bandpass filter",
@@ -98,7 +98,7 @@ export const projects: Project[] = [
   {
     title: "Aid Compass",
     description:
-      "Built a conversational web application that helps North Carolina disaster survivors navigate federal, state, and local aid programs. It includes guided intake, personalized aid dashboards, document checklists, deadline tracking, and FEMA case explanations.",
+      "Helped build a chat-based site to help people in North Carolina find disaster aid. It asks questions to find relevant programs and helps people track documents, deadlines, and next steps.",
     stack: [
       "Next.js",
       "Claude API",
@@ -111,7 +111,7 @@ export const projects: Project[] = [
   {
     title: "mukiewukie.github.io",
     description:
-      "No way, my portfolio made it into my portfolio. I built this Next.js site to share my projects, experience, and the things I’m still learning.",
+      "Wait, my portfolio made it into my portfolio. I built this site to share my projects and what I’m learning.",
     stack: [
       "Next.js",
       "React",
@@ -133,25 +133,25 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Software Engineering Internship @ Qualizeal",
     description:
-      "I feel fortunate to have interned at Qualizeal and learned from its software engineering team. I helped build a web application to process EEG data and explored using a convolutional neural network and SMOTE to classify emotional states. I learned about connecting frontend and backend code, preparing data, and testing a model carefully. I’m grateful to the team for their guidance and was happy to contribute to the project.",
+      "I feel lucky to have interned at Qualizeal and learned from its software engineering team. I helped build a web app to work with EEG data and tested whether a convolutional neural network and SMOTE could sort it into emotional states. I learned how the front and back ends fit together, how to prepare data, and how to test a model. I’m thankful to the team for their help and glad I could contribute.",
     indentLevel: 1,
   },
   {
     title: "Hackathon Projects",
     description:
-      "Built AI applications, file-management tools, and space-data projects in hackathon settings. These projects strengthened my rapid-prototyping, collaboration, and presentation skills.",
+      "At hackathons, I’ve worked with teams to make AI apps, file tools, and space-data projects. I got to try ideas quickly, work with new people, and present what we made.",
     indentLevel: 1,
   },
   {
     title: "Founder & Core Contributor, FRCElectrical.org",
     description:
-      "I began FRCElectrical.org with other students, mentors, and volunteers because we wanted FRC electrical knowledge to be easier for teams everywhere to find and learn. The free, open-source site includes a step-by-step learning course, control-system explanations, wiring and connection guides, tool and parts recommendations, and an educators handbook. I help maintain the site and moderate Jimmy's Electrical Server. I’m grateful for everyone who has contributed ideas and feedback, and I hope the resource keeps growing to serve more teams.",
+      "I helped start FRCElectrical.org with other students, mentors, and volunteers. We wanted FRC teams everywhere to have an easier time learning electrical basics. The free site has lessons on the control system, wiring and connection guides, tool suggestions, and a handbook for teachers. I help update the site and moderate Jimmy's Electrical Server. I’m thankful to everyone who shares ideas and feedback, and I hope more teams find it useful.",
     indentLevel: 1,
   },
   {
     title: "Personal Software Projects",
     description:
-      "Built full-stack applications, web platforms, and automation scripts with Next.js, React, and Python. I regularly integrate APIs such as OpenAI and Firebase when they are useful to the product.",
+      "I’ve made websites and small tools with Next.js, React, and Python. I’ve also connected projects to services like OpenAI and Firebase when we needed them.",
     indentLevel: 1,
   },
   {
@@ -162,14 +162,14 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Engineering Captain, YETI 3506 Robotics",
     description:
-      "I’m grateful to be part of YETI 3506, where I serve as an engineering captain and driver. At the FIRST Robotics World Championship, I drove during the playoff bracket, and our alliance won the Hopper Division. Over the season, I worked with teammates to test and improve a robot that brought together electrical, mechanical, and software systems. I learned a lot from their teamwork and from our alliance partners.",
+      "I’m thankful to be part of YETI 3506 as an engineering captain and driver. At the FIRST Robotics World Championship, I drove during the playoffs, and our alliance won the Hopper Division. During the season, I worked with my teammates to test and improve our robot. I learned a lot from them and from the teams we competed with.",
     indentLevel: 1,
     image: "/images/DSC_3879.jpg",
   },
   {
     title: "Founder, Treasurer, and Build Captain, Science Olympiad",
     description:
-      "I helped start my school's Science Olympiad program and served as a build captain. I helped teammates prepare for Helicopter, Boomilever, Electric Vehicle, and Robot Tour. We built and tested a small model helicopter, designed a lightweight Boomilever bridge, built and tuned an electric vehicle to meet its event rules, and prepared a robot to navigate a course for Robot Tour. In Helicopter, I helped adjust the model's weight, balance, and rotors between flights. I’m grateful to my teammates for what they taught me, including how to learn from designs that needed more work.",
+      "I helped start my school's Science Olympiad program and was a build captain. I helped my teammates get ready for Helicopter, Boomilever, Electric Vehicle, and Robot Tour. We built and tested a small helicopter, made a light bridge, built and adjusted a small car, and got a robot ready to follow a course. For Helicopter, I helped change the model's weight, balance, and rotors between flights. I’m thankful to my teammates for teaching me a lot, especially when our first designs needed work.",
     indentLevel: 1,
   },
   {
@@ -180,25 +180,25 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "FLL/FTC Mentoring",
     description:
-      "Mentored FIRST Lego League and FIRST Tech Challenge students in robotics fundamentals, programming, and the engineering design process.",
+      "I help FLL and FTC students learn the basics of robotics, programming, and how to build and test their ideas.",
     indentLevel: 1,
   },
   {
     title: "Kumon Assistant",
     description:
-      "Managed student progress through KumonConnect and supported instruction in math and reading while maintaining accurate learning records.",
+      "I help students with math and reading and keep track of their work in KumonConnect.",
     indentLevel: 1,
   },
   {
     title: "Founder, School Model United Nations",
     description:
-      "Founded my school's Model UN program and prepared students for conferences through research, debate, and leadership. The work strengthened my advocacy, public-speaking, and collaboration skills.",
+      "I helped start my school's Model UN club and get students ready for conferences. We practice research, debate, and speaking in front of people. I’ve learned a lot from doing this with other students.",
     indentLevel: 1,
   },
   {
     title: "Founder, School Envirothon Program",
     description:
-      "Founded my school's Envirothon program and competed in regional and state environmental competitions.",
+      "I helped start my school's Envirothon team and competed in regional and state events.",
     indentLevel: 1,
   },
   {
@@ -209,7 +209,7 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "SASA Advocate",
     description:
-      "Advocated for STEM funding at the state capitol by meeting with representatives to discuss the need for stronger science, technology, engineering, and math programs.",
+      "I went to the state capitol and talked with lawmakers about why schools need support for science, technology, engineering, and math programs.",
     indentLevel: 1,
   },
   {
@@ -220,7 +220,7 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Accessible Health Equity Committee Member @ Diphda Medical Company (4 years)",
     description:
-      "Provided health education to underserved populations in India and Nigeria. Maintained a Medicaid-eligible web store for affordable health products over four years.",
+      "I helped share health information with communities in India and Nigeria. I also helped keep an online store running where people could find affordable health products through Medicaid.",
     indentLevel: 1,
   },
 ];
@@ -230,37 +230,37 @@ export const awards: Award[] = [
     title: "Division Winner, FIRST Robotics World Championship",
     group: "Robotics",
     category: "World Championship",
-    description: "Primary driver in the top-32 bracket of 600 teams. Drove the robot to win the Hopper Division and worked with an alliance of teams from Australia, Canada, and Maine to advance worldwide.",
+    description: "I was our team's main driver in the top 32 out of 600 teams. Our alliance included teams from Australia, Canada, and Maine, and we won the Hopper Division.",
   },
   {
     title: "Hopper Division Engineering Inspiration Award, FIRST Robotics World Championship",
     group: "Robotics",
     category: "World Championship · 1 of 74 teams",
-    description: "Recognized for thousands of hours of sustainable community outreach, including advocacy, demonstrations, and mentoring. The team also won its championship division through competitive robot performance and driving.",
+    description: "Our team was recognized for years of community work, including mentoring, demonstrations, and speaking up for STEM. We also won our division at the championship.",
   },
   {
     title: "1st Place, Optics Physics & Lab, Boyceville Invitational Science Olympiad",
     group: "Science Olympiad",
     category: "1 of 215 teams",
-    description: "Answered questions on the physics of light and vision, including eye diseases and refraction, and conducted a lab on light propagation through a random arrangement of mirrors.",
+    description: "I answered questions about light and vision, including eye diseases and refraction. I also did a lab about how light moves through a group of mirrors.",
   },
   {
     title: "1st Place, Chandrayaan Science Fair",
     group: "Science Fair & Programming",
     category: "Science Fair",
-    description: "Researched the Chandrayaan rocket launch, built a functional rover model and scale rocket replica, and presented the project and documentation to win first place among high-school teams statewide.",
+    description: "I researched the Chandrayaan rocket launch, built a working rover model and a smaller rocket replica, and presented my project to high school teams from across the state. It won first place.",
   },
   {
     title: "1st Place, GreenCode Hackathon",
     group: "Science Fair & Programming",
     category: "Programming · State level · 1 of 10 teams",
-    description: "Co-created FileAtlas, a Google Drive-connected file-management site with project mind maps, similar-file merging, and Drive synchronization.",
+    description: "My team made FileAtlas, a file site that connects to Google Drive. It can make project mind maps, find similar files, and keep them in sync.",
   },
   { title: "Verbal Commendation at MUNCH", group: "Club Competitions", category: "Model United Nations" },
   { title: "Delegation Award, Carolinas Conference", group: "Club Competitions", category: "Model United Nations" },
   { title: "1st Place, Optics, Boyceville Invitational", group: "Science Olympiad", category: "National level" },
-  { title: "3rd Place, Geological Mapping; 5th Place, Helicopter", group: "Science Olympiad", category: "Regionals" },
-  { title: "6th Place, Geological Mapping; 10th Place, Optics and Helicopter", group: "Science Olympiad", category: "States" },
+  { title: "3rd Place, Geological Mapping, 5th Place, Helicopter", group: "Science Olympiad", category: "Regionals" },
+  { title: "6th Place, Geological Mapping, 10th Place, Optics and Helicopter", group: "Science Olympiad", category: "States" },
   { title: "Impact Award, Asheville Event", group: "Robotics", category: "Regional" },
   { title: "Impact Award, DCMP", group: "Robotics", category: "State" },
   { title: "6th Place, Envirothon", group: "Club Competitions", category: "Regionals" },

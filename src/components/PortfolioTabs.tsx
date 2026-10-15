@@ -36,18 +36,18 @@ export function PortfolioTabs() {
 
       <div className="space-y-10">
         {activeTab === "about" ? (
-          <Section id="about" eyebrow="About" title="Engineering mindset, thoughtful execution">
+          <Section id="about" eyebrow="About" title="What I’ve been learning">
             <div className="grid gap-6 md:grid-cols-2">
               <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900">
                 <h3 className="text-xl font-semibold text-slate-900 dark:text-white">What I do</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-200">
-                    I work with electrical engineering fundamentals, robotics, and software experimentation to create systems that are both functional and aesthetically pleasing.
+                    I like learning how electrical systems, robots, and software work by building and testing things myself.
                 </p>
               </div>
               <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900">
                 <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Current focus</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-600 dark:text-slate-200">
-                  Building reliable prototypes, improving control workflows, and learning how to communicate technical progress clearly in collaborative teams.
+                  I’m working on building things that work, improving robot controls, and explaining my ideas clearly to teammates.
                 </p>
               </div>
             </div>
@@ -61,7 +61,7 @@ export function PortfolioTabs() {
         ) : null}
 
         {activeTab === "experience" ? (
-          <Section id="experience" eyebrow="Robotics / Engineering Experience" title="Leadership and technical depth">
+          <Section id="experience" eyebrow="Robotics / Engineering Experience" title="Things I’ve gotten to try">
             <div className="grid gap-6 md:grid-cols-3">
               {experienceHighlights.map((item) => (
                 <div key={item.title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900">
@@ -74,10 +74,10 @@ export function PortfolioTabs() {
         ) : null}
 
         {activeTab === "contact" ? (
-          <Section id="contact" eyebrow="Contact" title="Let’s build something impactful">
+          <Section id="contact" eyebrow="Contact" title="Let’s talk about what we can build">
             <div className="rounded-2xl border border-slate-200 bg-slate-900 p-8 text-slate-100 shadow-sm">
               <p className="max-w-2xl text-sm leading-7 text-slate-300">
-                I’m interested in robotics, embedded systems, and collaborative engineering work. Feel free to reach out! I’m always open for conversations about building better products.
+                I like robotics, electronics, and working on projects with other people. If you want to talk about something you’re building, feel free to reach out.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 {contactLinks.map((link) => (
