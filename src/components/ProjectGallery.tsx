@@ -56,6 +56,14 @@ export function ProjectGallery({ projects }: ProjectGalleryProps) {
                   Visit website <span aria-hidden="true">↗</span>
                 </Link>
               ) : null}
+              {project.chiefDelphi ? (
+                <Link
+                  href={project.chiefDelphi}
+                  className="text-sm font-semibold transition-colors hover:text-[var(--signal)]"
+                >
+                  Read our Chief Delphi introduction <span aria-hidden="true">↗</span>
+                </Link>
+              ) : null}
               {project.link ? (
                 <Link
                   href={project.link}

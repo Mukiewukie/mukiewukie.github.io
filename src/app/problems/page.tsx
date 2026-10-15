@@ -4,19 +4,19 @@ import { Section } from "@/components/Section";
 
 const problems = [
   {
-    title: "Helping robotics teams with electrical work",
+    title: "Making robotics documentation easier to use",
     description:
-      "FRC teams need to connect a lot of electrical components safely and reliably, often under a tight build schedule. I helped make FRCElectrical.org, a guide to wiring, crimping, batteries, tools, and procurement that teams can use while learning and building.",
+      "FRC teams need clear, reliable instructions for wiring and connecting robot components, but useful information can be spread across many places. With other students and mentors, I helped build FRCElectrical.org, a free, open-source resource with a learning course, control-system explanations, wiring and connection guides, tool recommendations, and educator materials. We hope it can help teams around the world learn electrical basics and build with more confidence.",
   },
   {
-    title: "Finding a path to local careers",
+    title: "Making opportunities easier to find",
     description:
-      "It can be hard to connect a career goal with nearby training and a realistic way to get there. I worked on a project that brings together information about in-demand jobs, local training, and transportation access for Charlotte residents.",
+      "Access to learning and career opportunities is not the same for everyone. I worked on a project to help Charlotte residents explore in-demand careers, find nearby training, and understand transportation options. It gave me a small way to think about how better access to information can help people plan their next steps.",
   },
   {
-    title: "Exploring patterns in EEG data",
+    title: "Exploring a research question with EEG data",
     description:
-      "EEG data can be difficult to interpret. During my internship at Qualizeal, I helped build a web application to process EEG data and explored whether a machine-learning model could classify emotional states. I learned that preparing data and testing an approach carefully are important parts of the work.",
+      "During my internship at Qualizeal, I was fortunate to help build a web application that processes EEG data. We explored whether a machine-learning model could classify emotional states. I learned that preparing data and testing an approach carefully are important, and that a promising research question takes much more work to answer.",
   },
   {
     title: "Making disaster aid easier to navigate",
@@ -32,7 +32,7 @@ export default function Problems() {
       <main className="mx-auto flex max-w-6xl flex-col gap-16 px-6 py-24 lg:px-8">
         <Section id="problems" eyebrow="What I’m exploring" title="Projects start with a problem">
           <p className="max-w-3xl text-lg leading-8 text-gray-600">
-            I&apos;m a high school student, and I&apos;m still learning how to turn an idea into something useful. These are a few practical problems that have shaped the projects I&apos;ve worked on so far.
+            I&apos;m a high school student, and I&apos;m still learning how to turn an idea into something useful. These are a few problems I care about—unequal access to STEM and career opportunities, gaps in robotics documentation, and questions that research might help us explore.
           </p>
         </Section>
 

@@ -4,6 +4,7 @@ export interface Project {
   stack: string[];
   link?: string;
   website?: string;
+  chiefDelphi?: string;
   image?: string;
   preview?: boolean;
 }
@@ -27,23 +28,24 @@ export const projects: Project[] = [
   {
     title: "FRCElectrical.org",
     description:
-      "I helped create FRCElectrical.org, a learning guide for FIRST Robotics Competition teams. It covers the robot control system, wiring, crimping techniques, battery connections, tools and crimps, procurement guidance, and resources for educators. The goal is to help teams learn electrical basics and build more reliable robots for competition. I was excited to see 450+ viewers and 2.7K+ interested users in its first week, and I hope to keep improving it based on what teams need.",
+      "With help from teammates and mentors, I helped build FRCElectrical.org, a free, open-source resource for FRC teams anywhere in the world. It offers a step-by-step introduction to FRC electrical systems, control-system explanations, wiring and connection guides, tool and parts recommendations, and a handbook for educators. We hope it makes reliable electrical knowledge easier to find, especially for students and teams who are still learning where to start. I feel lucky to work on it, and grateful to everyone who has shared feedback and helped it grow.",
     stack: ["FRC", "Electrical Design", "Control Systems", "Debugging"],
     link: "https://github.com/FRCElectrical/FRCElectrical.org",
     website: "https://frcelectrical.org",
+    chiefDelphi: "https://www.chiefdelphi.com/t/introducing-frcelectrical-org-ai-free-high-quality-open-source-electrical-knowledge/522889",
     preview: true,
   },
   {
     title: "Science Olympiad Build Captain Work",
     description:
-      "Science Olympiad is a team competition where students prepare for events in science, engineering, and building. As a build captain, I helped organize and guide our team's build events, including Helicopter, Boomilever, Electric Vehicle, and Robot Tour. For Helicopter, I worked with teammates on a model helicopter and helped test its balance and rotors through repeated flights. The events taught me how much planning, teamwork, and careful testing matter.",
+      "Science Olympiad is a team competition with events in science, engineering, and building. I helped my teammates prepare for Helicopter, Boomilever, Electric Vehicle, and Robot Tour. For Helicopter, we built and tested a small model, adjusting its weight, balance, and rotors between flights. For Boomilever, we designed and tested a lightweight bridge; for Electric Vehicle, we built and tuned a small vehicle to meet the event rules; and for Robot Tour, we prepared a robot to navigate a course. I was grateful to learn alongside my teammates, especially when our first designs needed changes.",
     stack: ["CAD", "Prototyping", "Mechanical Design", "Engineering Design Process"],
     image: "/images/Helicopter-2025-Image.jpg",
   },
   {
     title: "Software Engineering Internship",
     description:
-      "I was grateful to have the opportunity to intern at Qualizeal and learn from a software engineering project. I helped build a web application that processed EEG (brainwave) data and explored classifying emotional states with a convolutional neural network. I learned more about connecting a frontend and backend, preparing data, and testing a machine-learning approach. I enjoyed the experience and came away with a lot more to learn.",
+      "I feel very fortunate to have interned at Qualizeal and to have learned from its software engineering team. I helped build a web application for processing EEG (brainwave) data and explored whether a convolutional neural network could classify emotional states. I learned about connecting frontend and backend code, preparing data, and testing a machine-learning approach carefully. I was happy to contribute, and I’m thankful to the team for their guidance and patience.",
     stack: ["Python", "EEG Data", "CNN", "Machine Learning"],
     link: "https://github.com/Mukiewukie/EEG-Processing-Site-Internship",
   },
@@ -131,7 +133,7 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Software Engineering Internship @ Qualizeal",
     description:
-      "Completed a software engineering internship at Qualizeal, where I built a web application that used convolutional neural networks and SMOTE to analyze EEG data and classify emotional states. The project involved frontend, backend, and machine-learning work.",
+      "I feel fortunate to have interned at Qualizeal and learned from its software engineering team. I helped build a web application to process EEG data and explored using a convolutional neural network and SMOTE to classify emotional states. I learned about connecting frontend and backend code, preparing data, and testing a model carefully. I’m grateful to the team for their guidance and was happy to contribute to the project.",
     indentLevel: 1,
   },
   {
@@ -143,7 +145,7 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Founder & Core Contributor, FRCElectrical.org",
     description:
-      "I started and helped build FRCElectrical.org, a learning guide for FIRST Robotics Competition teams. It covers the robot control system, wiring and crimping guides, battery connections, tool and procurement guidance, and materials for educators, with the goal of helping teams build more reliable robots. I also help maintain the site and moderate Jimmy's Electrical Server. More than 450 people viewed the site and 2.7K+ showed interest in its first week; that response encouraged me to keep improving the resource.",
+      "I began FRCElectrical.org with other students, mentors, and volunteers because we wanted FRC electrical knowledge to be easier for teams everywhere to find and learn. The free, open-source site includes a step-by-step learning course, control-system explanations, wiring and connection guides, tool and parts recommendations, and an educators handbook. I help maintain the site and moderate Jimmy's Electrical Server. I’m grateful for everyone who has contributed ideas and feedback, and I hope the resource keeps growing to serve more teams.",
     indentLevel: 1,
   },
   {
@@ -167,7 +169,7 @@ export const experienceHighlights: Highlight[] = [
   {
     title: "Founder, Treasurer, and Build Captain, Science Olympiad",
     description:
-      "I helped start my school's Science Olympiad program and served as a build captain. Science Olympiad includes events where students solve science problems, run investigations, or design devices to meet competition rules. I helped organize and guide our team's build events, including Helicopter, Boomilever, Electric Vehicle, Robot Tour, and others. For Helicopter, I worked with teammates on a model and helped test its weight, balance, and rotor design through repeated flights. It placed at regional and state competitions. I learned a lot from teammates and from designs that did not work the first time.",
+      "I helped start my school's Science Olympiad program and served as a build captain. I helped teammates prepare for Helicopter, Boomilever, Electric Vehicle, and Robot Tour. We built and tested a small model helicopter, designed a lightweight Boomilever bridge, built and tuned an electric vehicle to meet its event rules, and prepared a robot to navigate a course for Robot Tour. In Helicopter, I helped adjust the model's weight, balance, and rotors between flights. I’m grateful to my teammates for what they taught me, including how to learn from designs that needed more work.",
     indentLevel: 1,
   },
   {
